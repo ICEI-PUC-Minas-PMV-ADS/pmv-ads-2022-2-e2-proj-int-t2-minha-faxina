@@ -1,0 +1,123 @@
+﻿
+p1 {
+    font-size: 60px;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#back-button {
+    margin-right: 10%;
+    background-color: white;
+    border: solid 2px;
+    border-color: rgb(0, 176, 103);
+    border-radius: 3px;
+    color: rgb(0, 176, 103);
+    transition: 0.3s;
+}
+
+    #back-button:hover {
+        background-color: rgb(0, 176, 103);
+        color: white;
+    }
+
+p2 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+p3 {
+    font-size: 15px;
+    font-style: italic;
+    display: block;
+    text-align: right;
+    margin-right: 10%;
+}
+
+p1, p2, p3 {
+    min-width: 200px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.h-input {
+    font-size: 15px;
+}
+
+.cad {
+    display: flex;
+    margin: auto;
+    flex-flow: wrap;
+    max-width: 500px;
+    align-items: center;
+}
+
+    .cad > div {
+        padding: 0% 2% 0% 2%;
+    }
+
+.nome, .email {
+    width: 230px;
+}
+
+.cpf {
+    width: 200px;
+}
+
+.cep {
+    width: 180px;
+}
+
+.complemento {
+    width: 120px;
+}
+
+.bairro {
+    width: 230px;
+}
+
+.cidade {
+    width: 230px;
+}
+
+.rua {
+    width: 260px;
+}
+
+.senha, .confirm-senha {
+    width: 230px;
+}
+
+.idade, .numero {
+    width: 60px;
+}
+
+.submit {
+    margin: auto;
+}
+
+#submit {
+    background-color: white;
+    border: solid 2px;
+    border-color: rgb(0, 176, 103);
+    border-radius: 3px;
+    color: rgb(0, 176, 103);
+    transition: 0.3s;
+}
+
+    #submit:hover {
+        background-color: rgb(0, 176, 103);
+        color: white;
+    }
+
+footer {
+    padding: 5%;
+    text-align: center;
+}
+
+    footer > a {
+        text-decoration: none;
+        color: black;
+    }
