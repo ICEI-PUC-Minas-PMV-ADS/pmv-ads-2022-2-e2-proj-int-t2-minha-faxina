@@ -4,30 +4,26 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
+## Diagrama de Fluxo
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103080396/193426948-8df01c71-70eb-4877-856b-a2e7ba348dc2.jpeg" width="1000px" />
+</div>
+
 ## Diagrama de Classes
-
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103080396/191384345-d9f92dab-910b-447b-8865-76b0e3f9a8b2.jpg" width="1000px" />
+</div>
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
-
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<div align="left">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/main/docs/img/Diagrama%20Entidade-Relacionamento%20(ER).png" width="1000px" />
+</div>
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![Lógico_1](https://user-images.githubusercontent.com/101114385/192777239-d00edc8f-ece6-4d70-8c36-f30c2cec4e2e.png)
+
 
 ## Tecnologias Utilizadas
 
