@@ -802,3 +802,8 @@ C:\Users\RAFAEL\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucW
 C:\Users\RAFAEL\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.pdb
 C:\Users\RAFAEL\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.genruntimeconfig.cache
 C:\Users\RAFAEL\Documents\GitHub\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\ref\PucWebApplication.dll
+C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.PucWebApplication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.build.PucWebApplication.props
+C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PucWebApplication.props
+C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PucWebApplication.props
+C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets.pack.json

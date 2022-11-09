@@ -10000,19 +10000,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RAFAEL\\.nuget\\packages\\": {}
+    "C:\\Users\\guilh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
       "projectName": "PucWebApplication",
-      "projectPath": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
-      "packagesPath": "C:\\Users\\RAFAEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
+      "projectPath": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+      "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\RAFAEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10094,7 +10099,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
