@@ -28,4 +28,8 @@
     <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Home\NovaPasta\" />
+  </ItemGroup>
+
 </Project>

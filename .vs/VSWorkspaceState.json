@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PucWebApplication\\bin"
+    "\\PucWebApplication",
+    "\\PucWebApplication\\bin",
+    "\\PucWebApplication\\Views",
+    "\\PucWebApplication\\Views\\Home"
   ],
-  "SelectedNode": "\\PucWebApplication.sln",
+  "SelectedNode": "\\PucWebApplication\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -50,70 +50,10 @@ section {
     color: var(--brand) !important;
 }
 
-
-.hero-slider .owl-prev,
-.hero-slider .owl-next{
-    background-color: rgba(255, 255, 255, 0.3) !important;
-    width: 60px !important;
-    height: 60px !important;
-    display: block;
-    display: grid;
-    place-items: center;
-    color: #fff !important;
-    border-radius: 100px;
-    line-height: 0;
-    border-radius: 100px !important;
-    position: absolute;
-    top: 50%;
-    font-weight: 600 !important;
-    font-size: 12px !important;
-    transition: all 0.4s ease;
-    margin-top: -30px !important;
-}
-
-.owl-prev {
-    left: 0;
-}
-.owl-next {
-    right: 0;
-}
-
-.hero-slider .owl-prev:hover,
-.hero-slider .owl-next:hover {
-    background-color: var(--brand) !important; 
-}
-
-.owl-dot.active span{
-    background-color: var(--brand) !important;
-}
-
-
  /* slide */
- .slide {
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-}
-
-.slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/Imagens/woman-in-kitchen-looking-at-the-camera.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide .display-3 {
-    text-transform: uppercase;
-    color: #fff;
+.slide-img {
+    background-color: black;
+    opacity:50%;
 }
 
 /* navbar */
@@ -291,10 +231,35 @@ text-align: center;}
     color: #fff;
 }
 
-h6{
-    font-size: 70px;
-    font-weight: 400;
+/* SLIDES  INICIO*/
+
+.slide-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+
 }
+
+.slide-text {
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.carousel-item {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators {
+    height: 50px;
+}
+
+/* SLIDES  FIM */
+
 
 #reviews {
     background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg), #082032;;
