@@ -807,3 +807,14 @@ C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2
 C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PucWebApplication.props
 C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PucWebApplication.props
 C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.csproj.AssemblyReference.cache
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.AssemblyInfoInputs.cache
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.AssemblyInfo.cs
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.RazorAssemblyInfo.cache
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.RazorAssemblyInfo.cs
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.dll
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\refint\PucWebApplication.dll
+C:\Users\ph630\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\obj\Debug\net6.0\PucWebApplication.pdb

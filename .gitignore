@@ -527,3 +527,28 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,aspnetcore
+*.bin
+.vs/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/v17/workspaceFileList.bin
+.vs/ProjectEvaluation/pucwebapplication.metadata.v5.2
+.vs/ProjectEvaluation/pucwebapplication.projects.v5.2
+.vs/PucWebApplication/DesignTimeBuild/.dtbcache.v2
+.vs/PucWebApplication/v17/.futdcache.v2
+.vs/PucWebApplication/v17/.suo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+PucWebApplication/obj/Debug/net6.0/project.razor.vs.json
+PucWebApplication/obj/Debug/net6.0/PucWebApplication.assets.cache
+PucWebApplication/obj/Debug/net6.0/PucWebApplication.csproj.AssemblyReference.cache
+PucWebApplication/obj/Debug/net6.0/PucWebApplication.csproj.CoreCompileInputs.cache
+PucWebApplication/obj/Debug/net6.0/PucWebApplication.csproj.FileListAbsolute.txt
+PucWebApplication/obj/Debug/net6.0/PucWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+PucWebApplication/obj/project.assets.json
+PucWebApplication/obj/project.nuget.cache
+PucWebApplication/obj/PucWebApplication.csproj.nuget.dgspec.json
+PucWebApplication/obj/PucWebApplication.csproj.nuget.g.props
+PucWebApplication/obj/Release/net6.0/PucWebApplication.assets.cache
+PucWebApplication/obj/Release/net6.0/PucWebApplication.csproj.AssemblyReference.cache
+PucWebApplication/obj/Release/net6.0/PucWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+PucWebApplication/PucWebApplication.csproj
+PucWebApplication/PucWebApplication.csproj.user
+PucWebApplication/Views/Home/Index.cshtml

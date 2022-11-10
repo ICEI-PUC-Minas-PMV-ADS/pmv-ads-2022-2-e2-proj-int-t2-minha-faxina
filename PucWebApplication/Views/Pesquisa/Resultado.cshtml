@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<HTML>
+
+<head>
+    <title>Minha Faxina - Login</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configurando Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fim da Configuracao Bootstrap -->
+    <!-- Configuração Style -->
+    <link rel="stylesheet" href="~/css/Resulatdo.css">
+    <!-- Fim Configuração Style -->
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+
+    <!-- TOP NAV -->
+    <div class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <!-- <p> <i class='bx bxs-envelope'></i> minhafaxina@example.com</p>
+                    <p> <i class='bx bxs-phone-call'></i> (31) 9555-0114</p> -->
+                    Pesquisar por Nome
+                    @using (Html.BeginForm("Index", "Usuarios", FormMethod.Get))
+                    {
+                        @Html.TextBox("Pesquisa")
+                        <input type="submit" value="Pesquisar" />
+                    }
+
+                </div>
+
+                <div class="col-auto social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest'></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MENU NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <img src="/Imagens/Logo.jpg" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Faxineiras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Time</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li> -->
+                </ul>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="nav-item">
+                        <a style="text-decoration: none">&emsp;&emsp; Olá, @User.Identity.Name</a> <a class="" asp-controller="Usuarios" asp-action="Logout" style="text-decoration: none"> &nbsp;&nbsp;&nbsp;| Sair</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="nav-item">
+                        <a asp-controller="Usuarios" asp-action="login" data-bs-target="#exampleModal" class="btn ms-lg-3">Entrar</a>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </nav>
+</HTML>
