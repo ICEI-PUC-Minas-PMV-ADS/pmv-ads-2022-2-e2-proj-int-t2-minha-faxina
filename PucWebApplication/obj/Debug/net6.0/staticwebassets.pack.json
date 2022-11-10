@@ -185,6 +185,10 @@
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
+      "Id": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\teste.js",
+      "PackagePath": "staticwebassets\\js\\teste.js"
+    },
+    {
       "Id": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

@@ -6,6 +6,6 @@
     "\\PucWebApplication\\Views\\Home",
     "\\PucWebApplication\\Views\\Usuarios"
   ],
-  "SelectedNode": "\\PucWebApplication.sln",
+  "SelectedNode": "\\PucWebApplication\\Views\\Usuarios\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }
