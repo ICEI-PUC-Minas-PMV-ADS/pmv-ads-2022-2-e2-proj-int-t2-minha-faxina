@@ -1,7 +1,7 @@
 ﻿@model PucWebApplication.Models.Usuario
 @{
     ViewData["Title"] = "login";
-    ViewData["Title"] = "Home Page";    
+    ViewData["Title"] = "Home Page";
 }
 
 <!DOCTYPE html>
@@ -27,21 +27,23 @@
     <!-- Style -->
     <link rel="stylesheet" href="~/css/index.css">
     <!-- PHP -->
-    
+
 </head>
 
 <body>
     <img src="/faxina/Imagens/Logo.jpg"
         style="width: 60%; max-width: 300px; display: flex; margin: auto; padding-top: 50px;">
-    <ul class="navbar-nav" >
-        @if(User.Identity.IsAuthenticated){
+    <ul class="navbar-nav">
+        @if (User.Identity.IsAuthenticated)
+        {
             <li class="nav-item">
-                    Olá, @User.Identity.Name <a class="btn-contrat" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+                Olá, @User.Identity.Name <a class="btn-contrat" asp-controller="Usuarios" asp-action="Logout">Sair</a>
             </li>
         }
-        else{
+        else
+        {
             <li class="nav-item">
-                    <a class="btn-contrat" asp-controller="Usuarios" asp-action="login">Login</a>
+                <a class="btn-contrat" asp-controller="Usuarios" asp-action="login">Login</a>
             </li>
         }
 
@@ -53,29 +55,29 @@
         </p>
     </div>
 
-    
+
     <!-- Modal -->
     <div class="">
-    <div class="col-md-4">
-        <form asp-action="login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>             
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Entrar" class="btn btn-primary" />
-            </div>
-        </form>
-        <h3>
+        <div class="col-md-4">
+            <form asp-action="login">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Senha" class="control-label"></label>
+                    <input asp-for="Senha" class="form-control" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Entrar" class="btn btn-primary" />
+                </div>
+            </form>
+            <h3>
                 @ViewBag.Message
-        </h3>
+            </h3>
         </div>
     </div>
 
@@ -84,7 +86,7 @@
     </div>
 
     @section Scripts {
-        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     }
 
     <hr style="width: 80%; margin: auto; margin-top: 2%; margin-bottom: 2%;">
@@ -97,8 +99,9 @@
 
     <div class="inscreva-se">
         <p>Ainda não é cadastrado? </p>
-        <button type="button" class="botao-inscrever"  data-bs-target="#exampleModal">
-            <a class="botao-inscrever"asp-controller="Usuarios" asp-action="create" style="text-decoration: none; color: rgb(0, 176, 103);">Inscreva-se</a></button>        
+        <button type="button" class="botao-inscrever" data-bs-target="#exampleModal">
+            <a class="botao-inscrever" asp-controller="Usuarios" asp-action="create"
+                style="text-decoration: none; color: rgb(0, 176, 103);">Inscreva-se</a></button>
     </div>
     <div>
         <a asp-controller="Validation" asp-action="index">Validation List</a>
@@ -110,7 +113,7 @@
 
 
     <img src="/faxina/Imagens/Background.png"
-        style="width: 100%; max-width: 1080px;  display: flex; margin: auto; margin-top: 0%;">    
+        style="width: 100%; max-width: 1080px;  display: flex; margin: auto; margin-top: 0%;">
 
 </body>
 
