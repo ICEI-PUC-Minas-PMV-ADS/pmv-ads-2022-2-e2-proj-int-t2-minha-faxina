@@ -16,8 +16,8 @@ body {
     
 }
 
-h1,h2,h3,h4,h5,h6,
-.display-1,.display-2,.display-3,.display-4 {
+h1, h2, h3, h4, h5, h6,
+.display-1, .display-2, .display-3, .display-4 {
     font-weight: 700;
     color: var(--dark);
 }
@@ -118,7 +118,7 @@ section {
 }
 
 .btn {
-    padding: 8px 26px;
+    padding: 4px 25px;
 }
 
 .btn-brand {
