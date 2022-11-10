@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dw+/eUB8XZePH96wO+3p/q6G/GbIifJNxfrImTEjWgY=",
+  "Hash": "MnyxETjch4eDRf5kybdEdkHPrNqa+GQe8X+Zj+kyCxg=",
   "Source": "PucWebApplication",
   "BasePath": "_content/PucWebApplication",
   "Mode": "Default",
@@ -576,6 +576,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\search.png",
+      "SourceId": "PucWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
+      "BasePath": "_content/PucWebApplication",
+      "RelativePath": "Imagens/search.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\search.png"
     },
     {
       "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\slide 1.jpg",

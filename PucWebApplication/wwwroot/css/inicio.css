@@ -2,22 +2,30 @@
 
 :root {
     --brand: rgb(0, 176, 103);
-    --dark: #092032;
+    --dark: black;
     --body: #516171;
-    --border: rgba(0,0,0,0.08);
+    --border: rgba(0, 0, 0, 0.08);
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-    
+
 }
 
 body {
     font-family: "Barlow", sans-serif;
     color: var(--body);
     line-height: 1.7;
-    
+
 }
 
-h1, h2, h3, h4, h5, h6,
-.display-1, .display-2, .display-3, .display-4 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
     font-weight: 700;
     color: var(--dark);
 }
@@ -27,7 +35,8 @@ h1, h2, h3, h4, h5, h6,
     background-position: center;
     background-repeat: no-repeat;
 }
-.logo{
+
+.logo {
     width: 15%;
     padding: 1%;
 }
@@ -53,18 +62,18 @@ section {
 
 }
 
-    .botao:hover {
-        background-color: white;
-        border: 1px solid var(--brand);
-        color: var(--brand);
-    }
+.botao:hover {
+    background-color: white;
+    border: 1px solid var(--brand);
+    color: var(--brand);
+}
 
 /* modal */
 .modal-header {
     background-color: rgb(0, 176, 103);
 }
 
-.modal-title{
+.modal-title {
     color: white;
 }
 
@@ -86,11 +95,11 @@ section {
     transition: 0.3;
 }
 
-    #submit:hover {
-        background-color: white;
-        border: 1px solid var(--brand);
-        color: var(--brand);
-    }
+#submit:hover {
+    background-color: white;
+    border: 1px solid var(--brand);
+    color: var(--brand);
+}
 
 .inscreva-se {
     display: flex;
@@ -105,10 +114,10 @@ section {
     color: rgb(0, 176, 103);
     font-weight: 500;
     text-decoration: none;
-    transition:0.3;
+    transition: 0.3;
 }
 
-.botao-inscrever:hover{
+.botao-inscrever:hover {
     opacity: 0.5;
 }
 
@@ -121,11 +130,11 @@ section {
     margin-bottom: 20px;
 }
 
-    .form-control:focus {
-        border-color: var(--brand);
-    }
+.form-control:focus {
+    border-color: var(--brand);
+}
 
-.h-input{
+.h-input {
     width: 450px;
     padding-left: 5px;
     margin: 5px 0px;
@@ -136,7 +145,7 @@ section {
 /* slide */
 .slide-img {
     background-color: black;
-    opacity:50%;
+    opacity: 50%;
 }
 
 /* navbar */
@@ -200,13 +209,39 @@ section {
     color: var(--brand);
 }
 
-.intro {margin-bottom: 36px;
-text-align: center;}
+/* Barra de Pesquisa */
+.pesquisa {
+    text-align: center;
+}
+
+.botao-pesquisa {
+    border: none;
+    width: 35px;
+    background: none;
+    background-image: url(../Imagens/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+input[type=text] {
+    width: 95%;
+    border: none;
+    border-left: 3px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+    margin-bottom: 20px;
+}
+
+.intro {
+    margin-bottom: 36px;
+    text-align: center;
+}
 
 .intro p {
     max-width: 500px;
 }
-.intro h6{
+
+.intro h6 {
     color: var(--brand);
     font-weight: 400;
     text-transform: uppercase;
@@ -300,7 +335,7 @@ text-align: center;}
 
 /* SLIDES  INICIO*/
 
-.slide-title{
+.slide-title {
     font-size: 40px;
     font-weight: 600;
     color: white;
@@ -329,8 +364,9 @@ text-align: center;}
 
 
 #reviews {
-    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg), #082032;;
-    background-size:cover;
+    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg), #082032;
+    ;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -393,7 +429,8 @@ text-align: center;}
 
 
 footer {
-    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(/Imagens/woman-in-kitchen-looking-at-the-camera.jpg), #082032;;
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(/Imagens/woman-in-kitchen-looking-at-the-camera.jpg), #082032;
+    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -437,4 +474,3 @@ footer .social-icons a {
     left: 0;
     right: 0;
 }
-

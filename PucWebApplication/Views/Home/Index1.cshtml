@@ -1,7 +1,7 @@
 ﻿@model PucWebApplication.Models.Usuario
 @{
-    ViewData["Title"] = "login";
-    ViewData["Title"] = "Home Page";
+ViewData["Title"] = "login";
+ViewData["Title"] = "Home Page";
 }
 
 <!DOCTYPE html>
@@ -36,15 +36,15 @@
     <ul class="navbar-nav">
         @if (User.Identity.IsAuthenticated)
         {
-            <li class="nav-item">
-                Olá, @User.Identity.Name <a class="btn-contrat" asp-controller="Usuarios" asp-action="Logout">Sair</a>
-            </li>
+        <li class="nav-item">
+            Olá, @User.Identity.Name <a class="btn-contrat" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+        </li>
         }
         else
         {
-            <li class="nav-item">
-                <a class="btn-contrat" asp-controller="Usuarios" asp-action="login">Login</a>
-            </li>
+        <li class="nav-item">
+            <a class="btn-contrat" asp-controller="Usuarios" asp-action="login">Login</a>
+        </li>
         }
 
 

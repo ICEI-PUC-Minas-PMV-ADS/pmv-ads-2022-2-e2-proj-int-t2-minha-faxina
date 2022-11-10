@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg"
     },
     {
+      "Id": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\search.png",
+      "PackagePath": "staticwebassets\\Imagens\\search.png"
+    },
+    {
       "Id": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\slide 1.jpg",
       "PackagePath": "staticwebassets\\Imagens\\slide 1.jpg"
     },

@@ -2,7 +2,7 @@
     --brand: rgb(0, 176, 103);
     --dark: #092032;
     --body: #516171;
-    --border: rgba(0,0,0,0.08);
+    --border: rgba(0, 0, 0, 0.08);
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
 }
 
@@ -34,11 +34,11 @@ body {
     transition: 0.3;
 }
 
-    .botao:hover {
-        background-color: white;
-        border: 1px solid var(--brand);
-        color: var(--brand);
-    }
+.botao:hover {
+    background-color: white;
+    border: 1px solid var(--brand);
+    color: var(--brand);
+}
 
 #back-button {
     margin-right: 10%;
@@ -50,10 +50,10 @@ body {
     transition: 0.3s;
 }
 
-    #back-button:hover {
-        background-color: rgb(0, 176, 103);
-        color: white;
-    }
+#back-button:hover {
+    background-color: rgb(0, 176, 103);
+    color: white;
+}
 
 .title {
     font-size: 80px;
@@ -76,7 +76,9 @@ p3 {
     margin-right: 10%;
 }
 
-p1, p2, p3 {
+p1,
+p2,
+p3 {
     min-width: 100px;
     max-width: 800px;
     margin: auto;
@@ -87,19 +89,20 @@ p1, p2, p3 {
 }
 
 .cad {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin: auto;
     max-width: 800px;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
-    .cad > div {
-        padding: 0% 2% 0% 2%;
-    }
+.cad>div {
+    padding: 0% 2% 0% 2%;
+}
 
-.nome, .email {
+.nome,
+.email {
     max-width: 360px;
     min-width: 220px;
 }
@@ -134,12 +137,14 @@ p1, p2, p3 {
     min-width: 220px;
 }
 
-.senha, .confirm-senha {
+.senha,
+.confirm-senha {
     max-width: 360px;
     min-width: 220px;
 }
 
-.idade, .numero {
+.idade,
+.numero {
     max-width: 140px;
     min-width: 220px;
 }
@@ -166,19 +171,18 @@ p1, p2, p3 {
     transition: 0.3s;
 }
 
-    #submit:hover {
-        font-size: 600;
-        background-color: white;
-        color: var(--brand);
-    }
+#submit:hover {
+    font-size: 600;
+    background-color: white;
+    color: var(--brand);
+}
 
 footer {
     padding: 5%;
     text-align: center;
 }
 
-    footer > a {
-        text-decoration: none;
-        color: black;
-    }
-
+footer>a {
+    text-decoration: none;
+    color: black;
+}
