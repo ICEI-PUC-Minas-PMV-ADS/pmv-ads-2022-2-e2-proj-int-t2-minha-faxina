@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QlA7lpC+nkgWwLRFyUttly4DepeTg2Twr43vNIfIiaKYBpkdJhHI2fkBFK7MAaG1muE2fkcfxLYziupl3f0h9w==",
+  "dgSpecHash": "KjCTxmMBJhwm1F4nfG9ZpwCrqLLbjzmVH6dOj/jpJNJY8AZxXJpbeUUUT9xTWLR1Z2aejfpPqz7z/sMxNMdoOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ph630\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+  "projectFilePath": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ph630\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ph630\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

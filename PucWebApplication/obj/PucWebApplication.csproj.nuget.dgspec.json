@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ph630\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {}
+    "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ph630\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {
+    "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ph630\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
         "projectName": "PucWebApplication",
-        "projectPath": "C:\\Users\\ph630\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+        "projectPath": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
         "packagesPath": "C:\\Users\\ph630\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ph630\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
+        "outputPath": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ph630\\AppData\\Roaming\\NuGet\\NuGet.Config",
