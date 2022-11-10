@@ -1,7 +1,7 @@
 ﻿@model PucWebApplication.Models.Usuario
 @{
-ViewData["Title"] = "login";
-ViewData["Title"] = "index";
+    ViewData["Title"] = "login";
+    ViewData["Title"] = "index";
 }
 
 <!DOCTYPE html>
@@ -51,8 +51,8 @@ ViewData["Title"] = "index";
 
 
     <!-- MENU NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container">
+    <nav class=" navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="navbar container">
             <img src="/Imagens/Logo.jpg" class="logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,38 +76,50 @@ ViewData["Title"] = "index";
                         <a class="nav-link" href="#team">Time</a>
                     </li>
                     <!-- <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li> -->
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li> -->
                 </ul>
-                @if (User.Identity.IsAuthenticated) {
-                <div class="nav-item">
-                    <a style="text-decoration: none">&emsp;&emsp; Olá, @User.Identity.Name</a> <a class=""
-                        asp-controller="Usuarios" asp-action="Logout" style="text-decoration: none"> &nbsp;&nbsp;&nbsp;|
-                        Sair</a>
-                </div>
-                } else {
-                <div class="nav-item">
-                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="botao ms-lg-3">Fazer
-                        Login</button>
-                </div>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="nav-item">
+                        <a style="text-decoration: none">&emsp;&emsp; Olá, @User.Identity.Name</a> <a class=""
+                        asp-controller="Usuarios" asp-action="Logout" style="text-decoration: none">
+                            &nbsp;&nbsp;&nbsp;|
+                            Sair
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    <div class="nav-item">
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="botao ms-lg-3">
+                            Fazer
+                            Login
+                        </button>
+                    </div>
                 }
 
+            </div>
+
+        </div>
+        <div>
+            <div class="col-auto pesquisa">
+                <!-- <p> <i class='bx bxs-envelope'></i> minhafaxina@example.com</p>
+                        <p> <i class='bx bxs-phone-call'></i> (31) 9555-0114</p> -->
+                @using (Html.BeginForm("Index", "Usuarios", FormMethod.Get))
+                {
+                    <input type="text" name="Pesquisa" placeholder="Pesquise por nome, endereço ou CEP">
+                    <input type="submit" value=" " class="botao-pesquisa" />
+                }
             </div>
         </div>
     </nav>
 
-    <div class="col-auto pesquisa">
-        <!-- <p> <i class='bx bxs-envelope'></i> minhafaxina@example.com</p>
-                    <p> <i class='bx bxs-phone-call'></i> (31) 9555-0114</p> -->
-        @using(Html.BeginForm("Index", "Usuarios",FormMethod.Get)){
-        <input type="text" name="Pesquisa" placeholder="Pesquise por nome, endereço ou CEP">
-        <input type="submit" value=" " class="botao-pesquisa" />
 
-        }
-    </div>
+
     <!-- Modal Login -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -147,6 +159,24 @@ ViewData["Title"] = "index";
         </div>
     </div>
 
+    <h2>Enviar dados do JavaScript para o HTML através do ID - getElementById</h2>
+    <span id="nome-usuario"></span>
+
+    <h2>Enviar dados do JavaScript para o HTML através do Class - getElementsByClassName</h2>
+    <span class="turma-usuario"></span><br>
+
+    <h2>Enviar dados do JavaScript para o HTML através do Class - getElementsByClassName</h2>
+    <span class="turma-usuario"></span><br>
+
+    <h2>Enviar dados do JavaScript para o HTML através do Class - querySelector</h2>
+    <span class="modulo"></span>
+
+    <h2>Enviar dados do JavaScript para o HTML através do ID - querySelector</h2>
+    <span id="qnt-aula-visualizada"></span>
+
+    <h2>Verificar no JavaScript se existe o atributo com o seletor na página HTML. Enviar dados do JavaScript para o
+        HTML através do ID - querySelector</h2>
+    <span id="sit-inscricao"></span>
 
     <!-- slide -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -187,30 +217,30 @@ ViewData["Title"] = "index";
 
     @* <div class="owl-carousel owl-theme hero-slider">
         <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <h6 class="text-white text-uppercase">sua casa está precisando de uma faxina?</h6>
-                        <h1 class="display-3 my-4">nós te ajudamos <br />com isso</h1>
-                        <a href="#" class="btn btn-brand">contratar</a>
-                        <a href="#" class="btn btn-outline-light ms-3">prestar serviço</a>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
+        <div class="row">
+        <div class="col-12 text-center text-white">
+        <h6 class="text-white text-uppercase">sua casa está precisando de uma faxina?</h6>
+        <h1 class="display-3 my-4">nós te ajudamos <br />com isso</h1>
+        <a href="#" class="btn btn-brand">contratar</a>
+        <a href="#" class="btn btn-outline-light ms-3">prestar serviço</a>
+        </div>
+        </div>
+        </div>
         </div>
         <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
-                        <h6 class="text-white text-uppercase">encontre faxineiros próximos de você</h6>
-                        <h1 class="display-3 my-4">praticidade e segurança <br />é com a gente</h1>
-                        <a href="#" class="btn btn-brand">contratar</a>
-                        <a href="#" class="btn btn-outline-light ms-3">prestar serviço</a>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
+        <div class="row">
+        <div class="col-12 col-lg-10 offset-lg-1 text-white">
+        <h6 class="text-white text-uppercase">encontre faxineiros próximos de você</h6>
+        <h1 class="display-3 my-4">praticidade e segurança <br />é com a gente</h1>
+        <a href="#" class="btn btn-brand">contratar</a>
+        <a href="#" class="btn btn-outline-light ms-3">prestar serviço</a>
         </div>
-    </div>*@
+        </div>
+        </div>
+        </div>
+        </div>*@
 
     <!-- Sobre -->
     <section id="about">
@@ -224,8 +254,10 @@ ViewData["Title"] = "index";
                                 <img src="/Imagens/icone2.jpeg">
                                 <div class="ms-4">
                                     <h5>Compromisso</h5>
-                                    <p>Minha faxina é uma aplicação que visa tornar mais prática a interaçao entre
-                                        pessoas que desejam contratar ou prestar serviços domésticos. </p>
+                                    <p>
+                                        Minha faxina é uma aplicação que visa tornar mais prática a interaçao entre
+                                        pessoas que desejam contratar ou prestar serviços domésticos.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -234,8 +266,10 @@ ViewData["Title"] = "index";
                                 <img src="/Imagens/Icone 1.jpeg" alt="">
                                 <div class="ms-4">
                                     <h5>Praticidade</h5>
-                                    <p>Contrate os melhores profissionais, personalize o tipo de limpeza, escolha o dia
-                                        e horário, combine valores, tudo no conforto de casa. </p>
+                                    <p>
+                                        Contrate os melhores profissionais, personalize o tipo de limpeza, escolha o dia
+                                        e horário, combine valores, tudo no conforto de casa.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -244,8 +278,10 @@ ViewData["Title"] = "index";
                                 <img src="/Imagens/Icone2.jpeg" alt="">
                                 <div class="ms-4">
                                     <h5>Segurança</h5>
-                                    <p>Nossos faxineiros e contratantes seguem o Código de Conduta, que estabelece as
-                                        responsabilidades dos membros da nossa plataforma.</p>
+                                    <p>
+                                        Nossos faxineiros e contratantes seguem o Código de Conduta, que estabelece as
+                                        responsabilidades dos membros da nossa plataforma.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -268,9 +304,11 @@ ViewData["Title"] = "index";
                     <h5>Isabela Ferreira</h5>
                     <small>Região:Belo horizonte</small>
                 </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
                     ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
+                    enim nam exercitationem optio ducimus!
+                </h3>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -286,9 +324,11 @@ ViewData["Title"] = "index";
                     <h5>Juliana santana</h5>
                     <small>Região:Betim</small>
                 </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
                     ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
+                    enim nam exercitationem optio ducimus!
+                </h3>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -304,9 +344,11 @@ ViewData["Title"] = "index";
                     <h5>Marcos Daniel</h5>
                     <small>Região Contagem</small>
                 </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
                     ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
+                    enim nam exercitationem optio ducimus!
+                </h3>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -319,50 +361,53 @@ ViewData["Title"] = "index";
         </div>
     </section>
     <!-- serviços -->
-    @if (!User.IsInRole("Empregado")) {
+    @if (!User.IsInRole("Empregado"))
+    {
 
-    <section id="services" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Ajudantes do lar</h6>
-                        <h1>Vamos limpar a casa juntos?</h1>
-                        <p class="mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-                            adipisci,
-                            voluptates debitis nulla ipsa alias fugit architecto sunt nesciunt quidem perspiciatis eaque
-                            totam laudantium quis beatae? Animi consequatur atque ipsa.</p>
+        <section id="services" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="intro">
+                            <h6>Ajudantes do lar</h6>
+                            <h1>Vamos limpar a casa juntos?</h1>
+                            <p class="mx-auto">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                                adipisci,
+                                voluptates debitis nulla ipsa alias fugit architecto sunt nesciunt quidem perspiciatis eaque
+                                totam laudantium quis beatae? Animi consequatur atque ipsa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service">
+                            <img src="/Imagens/team_1.jpg">
+                            <h5>Isabela Ferreira</h5>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                            <button type="button" class="btn btn-success">Contratar</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service">
+                            <img src="/Imagens/team_2.jpg" alt="">
+                            <h5>Isabela Ferreira</h5>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                            <button type="button" class="btn btn-success">Contratar</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service">
+                            <img src="/Imagens/team_3.jpg" alt="">
+                            <h5>Isabela Ferreira</h5>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                            <button type="button" class="btn btn-success">Contratar</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="/Imagens/team_1.jpg">
-                        <h5>Isabela Ferreira</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                        <button type="button" class="btn btn-success">Contratar</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="/Imagens/team_2.jpg" alt="">
-                        <h5>Isabela Ferreira</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                        <button type="button" class="btn btn-success">Contratar</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="/Imagens/team_3.jpg" alt="">
-                        <h5>Isabela Ferreira</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                        <button type="button" class="btn btn-success">Contratar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     }
     @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
@@ -374,8 +419,11 @@ ViewData["Title"] = "index";
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
                         <h4 class="navbar-brand">Minha Faxina<span class="dot">.</span></h4>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of
+                            classical Latin literature from
+                        </p>
                         <div class="col-auto social-icons">
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -404,6 +452,7 @@ ViewData["Title"] = "index";
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/app.js"></script>
+    <script src="/js/teste.js"></script>
 
 </body>
 

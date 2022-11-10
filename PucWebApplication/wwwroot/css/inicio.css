@@ -149,6 +149,10 @@ section {
 }
 
 /* navbar */
+
+.bloco1{
+    border: 1px solid red;
+}
 .top-nav {
     background-color: var(--brand);
     color: #fff;
