@@ -1,10 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Home\NovaPasta\**" />
+    <Content Remove="Views\Home\NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Home\NovaPasta\**" />
+    <None Remove="Views\Home\NovaPasta\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Remove="wwwroot\css\site.css" />
@@ -26,10 +33,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
     <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Home\NovaPasta\" />
   </ItemGroup>
 
 </Project>
