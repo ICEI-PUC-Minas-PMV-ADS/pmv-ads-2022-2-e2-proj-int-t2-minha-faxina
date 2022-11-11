@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PucWebApplication
 build_property.RootNamespace = PucWebApplication
-build_property.ProjectDir = C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\
+build_property.ProjectDir = C:\Users\guilh\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication
+build_property.MSBuildProjectDirectory = C:\Users\guilh\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/guilh/source/repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Home/Index.cshtml]
