@@ -16,16 +16,7 @@ body {
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.display-1,
-.display-2,
-.display-3,
-.display-4 {
+h1,h2,h3,h4,h5,h6,.display-1,.display-2,.display-3,.display-4 {
     font-weight: 700;
     color: var(--dark);
 }
@@ -68,6 +59,77 @@ section {
     color: var(--brand);
 }
 
+a{
+    color: var(--brand);
+    text-decoration: none;
+}
+
+/* navbar */
+
+.top-nav {
+    background-color: var(--brand);
+    color: #fff;
+    height: 40px;
+}
+.navbar-collapse{
+    justify-content:center;
+}
+
+.navbar-nav {
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--brand);
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-brand .dot {
+    color: var(--brand);
+}
+
+.usuario{
+    margin-right:0;
+    border: none;
+    color: var(--brand);
+}
+
+/* Barra de Pesquisa */
+.pesquisa {
+    text-align: center;
+}
+
+.botao-pesquisa {
+    border: none;
+    width: 35px;
+    background: none;
+    background-image: url(../Imagens/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+input[name=Pesquisa] {
+    width: 95%;
+    border: none;
+    border-left: 3px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+    margin-bottom: 20px;
+}
+
 /* modal */
 .modal-header {
     background-color: rgb(0, 176, 103);
@@ -95,11 +157,11 @@ section {
     transition: 0.3;
 }
 
-#submit:hover {
-    background-color: white;
-    border: 1px solid var(--brand);
-    color: var(--brand);
-}
+    #submit:hover {
+        background-color: white;
+        border: 1px solid var(--brand);
+        color: var(--brand);
+    }
 
 .inscreva-se {
     display: flex;
@@ -117,21 +179,17 @@ section {
     transition: 0.3;
 }
 
-.botao-inscrever:hover {
-    opacity: 0.5;
-}
+    .botao-inscrever:hover {
+        opacity: 0.5;
+    }
 
 /* input form */
 .form-control {
     width: 450px;
     background-color: rgba(0, 0, 0, .09);
-    border-color: rgba(0, 0, 0, 0.04);
+    border: none;
     border-radius: 0px;
     margin-bottom: 20px;
-}
-
-.form-control:focus {
-    border-color: var(--brand);
 }
 
 .h-input {
@@ -148,92 +206,11 @@ section {
     opacity: 50%;
 }
 
-/* navbar */
-
-.bloco1{
-    border: 1px solid red;
-}
-.top-nav {
-    background-color: var(--brand);
-    color: #fff;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.top-nav p {
-    display: inline-block;
-    margin-bottom: 0;
-    margin-right: 10px;
-}
-
-.top-nav span,
-.top-nav i {
-    vertical-align: middle;
-}
-
-.navbar {
-    box-shadow: var(--shadow);
-}
-
-.social-icons a {
-    width: 28px;
-    height: 28px;
-    display: inline-flex;
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.25);
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-}
-
-.social-icons a:hover {
-    background-color: #fff;
-    color: var(--brand);
-}
-
-.navbar .navbar-nav .nav-link {
-    color: var(--dark);
-}
-
-.navbar .navbar-nav .nav-link:hover {
-    color: var(--brand);
-}
-
-.navbar .navbar-nav .nav-link.active {
-    color: var(--brand);
-}
-
-.navbar-brand {
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.navbar-brand .dot {
-    color: var(--brand);
-}
-
-/* Barra de Pesquisa */
-.pesquisa {
-    text-align: center;
-}
-
-.botao-pesquisa {
-    border: none;
-    width: 35px;
-    background: none;
-    background-image: url(../Imagens/search.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-input[type=text] {
-    width: 95%;
-    border: none;
-    border-left: 3px solid var(--brand);
-    border-bottom: 1px solid var(--brand);
-    margin-bottom: 20px;
+.carousel-caption {
+    background-color: rgb(0,0,0,.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 .intro {

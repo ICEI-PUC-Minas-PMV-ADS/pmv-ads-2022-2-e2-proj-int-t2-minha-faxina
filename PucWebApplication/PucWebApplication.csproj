@@ -18,8 +18,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Usuarios\Class.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\css\site.css" />
     <Content Remove="wwwroot\js\JavaScript.js" />
+    <Content Remove="wwwroot\js\teste.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Usuarios\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
