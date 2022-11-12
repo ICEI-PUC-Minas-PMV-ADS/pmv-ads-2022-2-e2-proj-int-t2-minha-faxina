@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     ""
+=======
+    "",
+    "\\PucWebApplication",
+    "\\PucWebApplication\\Views",
+    "\\PucWebApplication\\Views\\Home",
+    "\\PucWebApplication\\Views\\Usuarios"
+>>>>>>> 732eca19e26331f31643c72dfdb16a3bab787edd
   ],
   "SelectedNode": "\\PucWebApplication.sln",
   "PreviewInSolutionExplorer": false
