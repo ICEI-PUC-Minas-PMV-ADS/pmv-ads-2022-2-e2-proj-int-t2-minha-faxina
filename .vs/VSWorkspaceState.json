@@ -4,8 +4,10 @@
     "\\PucWebApplication",
     "\\PucWebApplication\\Views",
     "\\PucWebApplication\\Views\\Home",
-    "\\PucWebApplication\\Views\\Usuarios"
+    "\\PucWebApplication\\Views\\Usuarios",
+    "\\PucWebApplication\\wwwroot",
+    "\\PucWebApplication\\wwwroot\\css"
   ],
-  "SelectedNode": "\\PucWebApplication.sln",
+  "SelectedNode": "\\PucWebApplication\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

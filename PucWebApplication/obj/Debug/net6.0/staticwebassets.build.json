@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "S7ZKnQ1+UpElc6mAg44U0SZy4df71SYdIhWNhrH07+g=",
-=======
-  "Hash": "UIZmoJpmftS1K2vDE/I6gmPS/oVw36PzQYQGI0SzEW8=",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+  "Hash": "n4fsaLCo1eNQ/xdcADjh6etuYCxZ80gR5tLpARwBztM=",
   "Source": "PucWebApplication",
   "BasePath": "_content/PucWebApplication",
   "Mode": "Default",
@@ -14,24 +10,17 @@
     {
       "Name": "PucWebApplication\\wwwroot",
       "Source": "PucWebApplication",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PucWebApplication.styles.css",
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PucWebApplication.styles.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PucWebApplication.styles.css",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "PucWebApplication.styles.css",
       "AssetKind": "All",
@@ -42,23 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PucWebApplication.styles.css"
+      "OriginalItemSpec": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PucWebApplication.styles.css"
     },
     {
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucWebApplication.bundle.scp.css",
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucWebApplication.bundle.scp.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PucWebApplication.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucWebApplication.bundle.scp.css",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "PucWebApplication.bundle.scp.css",
       "AssetKind": "All",
@@ -69,20 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucWebApplication.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucWebApplication.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\bootstrap.min.css",
-=======
-      "OriginalItemSpec": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucWebApplication.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\css\\bootstrap.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -96,17 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\inicio.css",
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\inicio.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\css\\inicio.css",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "css/inicio.css",
       "AssetKind": "All",
@@ -120,14 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\inicio.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\owl.carousel.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\css\\owl.carousel.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\owl.carousel.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -141,14 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\owl.theme.default.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\css\\owl.theme.default.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\owl.theme.default.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "css/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -162,14 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.theme.default.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\StyleSheet.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\css\\StyleSheet.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\StyleSheet.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "css/StyleSheet.css",
       "AssetKind": "All",
@@ -183,14 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\favicon.ico",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\favicon.ico",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\favicon.ico",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -204,14 +153,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\about.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\about.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\about.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/about.png",
       "AssetKind": "All",
@@ -225,14 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\about.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Apartamento.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Apartamento.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Apartamento.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Apartamento.jpg",
       "AssetKind": "All",
@@ -246,14 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Apartamento.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Background 1.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Background 1.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Background 1.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Background 1.jpg",
       "AssetKind": "All",
@@ -267,14 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Background 1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Background.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Background.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Background.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Background.jpg",
       "AssetKind": "All",
@@ -288,14 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Background.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Background.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Background.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Background.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Background.png",
       "AssetKind": "All",
@@ -309,14 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Background.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\domestic-routine-smiling-housewife-in-apron-standing-in-the-kitchen.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\domestic-routine-smiling-housewife-in-apron-standing-in-the-kitchen.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\domestic-routine-smiling-housewife-in-apron-standing-in-the-kitchen.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/domestic-routine-smiling-housewife-in-apron-standing-in-the-kitchen.jpg",
       "AssetKind": "All",
@@ -330,14 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\domestic-routine-smiling-housewife-in-apron-standing-in-the-kitchen.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\executive-business-woman-in-an-office.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\executive-business-woman-in-an-office.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\executive-business-woman-in-an-office.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/executive-business-woman-in-an-office.jpg",
       "AssetKind": "All",
@@ -351,14 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\executive-business-woman-in-an-office.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon1.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icon1.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon1.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icon1.png",
       "AssetKind": "All",
@@ -372,14 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icon1.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon2.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icon2.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon2.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icon2.png",
       "AssetKind": "All",
@@ -393,14 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icon2.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon3.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icon3.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon3.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icon3.png",
       "AssetKind": "All",
@@ -414,14 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icon3.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon4.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icon4.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon4.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icon4.png",
       "AssetKind": "All",
@@ -435,14 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icon4.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon5.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icon5.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon5.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icon5.png",
       "AssetKind": "All",
@@ -456,14 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icon5.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon6.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icon6.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icon6.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icon6.png",
       "AssetKind": "All",
@@ -477,14 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icon6.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Icone 1.jpeg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Icone 1.jpeg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Icone 1.jpeg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Icone 1.jpeg",
       "AssetKind": "All",
@@ -498,14 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Icone 1.jpeg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icone2.jpeg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\icone2.jpeg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\icone2.jpeg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/icone2.jpeg",
       "AssetKind": "All",
@@ -519,14 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\icone2.jpeg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\limpeza.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\limpeza.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\limpeza.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/limpeza.jpg",
       "AssetKind": "All",
@@ -540,14 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\limpeza.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Logo.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Logo.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Logo.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Logo.jpg",
       "AssetKind": "All",
@@ -561,14 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Logo.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Logo.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Logo.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Logo.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Logo.png",
       "AssetKind": "All",
@@ -582,14 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Logo.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Logo1.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Logo1.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Logo1.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Logo1.jpg",
       "AssetKind": "All",
@@ -603,14 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Logo1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Louc¦ºas.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Louc¦ºas.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Louc¦ºas.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Louc¦ºas.jpg",
       "AssetKind": "All",
@@ -624,14 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Louc¦ºas.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Luminarias.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\Luminarias.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\Luminarias.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/Luminarias.jpg",
       "AssetKind": "All",
@@ -645,14 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Luminarias.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\persona1.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\persona1.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\persona1.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/persona1.jpg",
       "AssetKind": "All",
@@ -666,14 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\persona1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg",
       "AssetKind": "All",
@@ -687,14 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/r-architecture-wot0Q5sg91E-unsplash.jpg",
       "AssetKind": "All",
@@ -708,14 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\search.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\search.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\search.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/search.png",
       "AssetKind": "All",
@@ -729,14 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\search.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\slide 1.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\slide 1.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\slide 1.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/slide 1.jpg",
       "AssetKind": "All",
@@ -750,14 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\slide 1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\sobre.png",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\sobre.png",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\sobre.png",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/sobre.png",
       "AssetKind": "All",
@@ -771,14 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\sobre.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\team_1.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\team_1.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\team_1.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/team_1.jpg",
       "AssetKind": "All",
@@ -792,14 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\team_1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\team_2.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\team_2.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\team_2.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/team_2.jpg",
       "AssetKind": "All",
@@ -813,14 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\team_2.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\team_3.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\team_3.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\team_3.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/team_3.jpg",
       "AssetKind": "All",
@@ -834,14 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\team_3.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\WhatsApp Image 2022-10-18 at 00.15.26.jpeg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\WhatsApp Image 2022-10-18 at 00.15.26.jpeg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\WhatsApp Image 2022-10-18 at 00.15.26.jpeg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/WhatsApp Image 2022-10-18 at 00.15.26.jpeg",
       "AssetKind": "All",
@@ -855,14 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\WhatsApp Image 2022-10-18 at 00.15.26.jpeg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\woman-in-kitchen-looking-at-the-camera.jpg",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\Imagens\\woman-in-kitchen-looking-at-the-camera.jpg",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\woman-in-kitchen-looking-at-the-camera.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "Imagens/woman-in-kitchen-looking-at-the-camera.jpg",
       "AssetKind": "All",
@@ -876,14 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\woman-in-kitchen-looking-at-the-camera.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\app.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\js\\app.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\app.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "js/app.js",
       "AssetKind": "All",
@@ -897,14 +714,10 @@
       "OriginalItemSpec": "wwwroot\\js\\app.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\bootstrap.bundle.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\js\\bootstrap.bundle.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -918,17 +731,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\jquery.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\js\\jquery.min.js",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -942,14 +748,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\owl.carousel.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\js\\owl.carousel.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\owl.carousel.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -963,13 +765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl.carousel.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\js\\teste.js",
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\teste.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "js/teste.js",
       "AssetKind": "All",
@@ -983,11 +782,10 @@
       "OriginalItemSpec": "wwwroot\\js\\teste.js"
     },
     {
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1001,14 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1022,14 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1043,14 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1064,14 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1085,14 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1106,14 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1127,14 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1148,14 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1169,14 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1190,14 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1211,14 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1232,14 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1253,14 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1274,14 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1295,14 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1316,14 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1337,14 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1358,14 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1379,14 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1400,14 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1421,14 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1442,14 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1463,14 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1484,14 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1505,14 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1526,14 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1547,14 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1568,14 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1589,14 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1610,14 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1631,14 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1652,14 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1673,14 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1694,14 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1715,14 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1736,14 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1757,14 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1778,14 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1799,14 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1820,14 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1841,14 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1862,14 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1883,14 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1904,14 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1925,14 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1946,14 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1967,14 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1988,14 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2009,14 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2030,14 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2051,14 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2072,14 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2093,14 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2114,14 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2135,14 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2156,14 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-=======
-      "Identity": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\OneDrive\\Área de Trabalho\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-dd3af0bca3eef9187ed49ada9452d2427a6a60eb\\PucWebApplication\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
       "BasePath": "_content/PucWebApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
