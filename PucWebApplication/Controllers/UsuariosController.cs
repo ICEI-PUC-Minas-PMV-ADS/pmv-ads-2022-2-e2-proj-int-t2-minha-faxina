@@ -44,8 +44,7 @@ namespace PucWebApplication.Controllers
                 var claims = new List<Claim> {
                     new Claim(ClaimTypes.Name, user.Nome),
                     new Claim(ClaimTypes.NameIdentifier, user.Nome),
-                    new Claim(ClaimTypes.Role, user.Perfil.ToString()),
-                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "Login");

@@ -16,7 +16,16 @@ body {
 
 }
 
-h1,h2,h3,h4,h5,h6,.display-1,.display-2,.display-3,.display-4 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
     font-weight: 700;
     color: var(--dark);
 }
@@ -59,25 +68,31 @@ section {
     color: var(--brand);
 }
 
-a{
-    color: var(--brand);
-    text-decoration: none;
+/* input form */
+.form-control {
+    width: 450px;
+    background-color: rgba(0, 0, 0, .09);
+    border-color: rgba(0, 0, 0, 0.04);
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: var(--brand);
+}
+
+.h-input {
+    width: 450px;
+    padding-left: 5px;
+    margin: 5px 0px;
+    border-left: 3px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
 }
 
 /* navbar */
-
 .top-nav {
     background-color: var(--brand);
-    color: #fff;
     height: 40px;
-}
-.navbar-collapse{
-    justify-content:center;
-}
-
-.navbar-nav {
-    margin-right:auto;
-    margin-left:auto;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -101,13 +116,45 @@ a{
     color: var(--brand);
 }
 
-.usuario{
-    margin-right:0;
-    border: none;
-    color: var(--brand);
+.navbar-nav{
+    margin-left:auto;
+    margin-right:auto;
 }
 
-/* Barra de Pesquisa */
+.usuario{
+    text-decoration:none;
+    color: var(--brand);
+    border: none;
+}
+
+.dropdown-menu{
+    width:100%;
+}
+
+.dropdown-item:hover{
+    background-color: var(--brand);
+    color: white;
+    font-weight: 500;
+}
+
+.first-item {
+    margin-bottom: -17px;
+    margin-top: -10px;
+}
+
+.last-item { 
+    text-decoration: none;
+    color: red;
+    margin-bottom: -10px;
+    margin-top: -17px;
+}
+
+.last-item:hover {
+    background-color: red;
+    color: white;
+}
+
+/* BARRA DE PESQUISA */
 .pesquisa {
     text-align: center;
 }
@@ -130,7 +177,7 @@ input[name=Pesquisa] {
     margin-bottom: 20px;
 }
 
-/* modal */
+/* MODAL */
 .modal-header {
     background-color: rgb(0, 176, 103);
 }
@@ -183,35 +230,43 @@ input[name=Pesquisa] {
         opacity: 0.5;
     }
 
-/* input form */
-.form-control {
-    width: 450px;
-    background-color: rgba(0, 0, 0, .09);
-    border: none;
-    border-radius: 0px;
-    margin-bottom: 20px;
-}
-
-.h-input {
-    width: 450px;
-    padding-left: 5px;
-    margin: 5px 0px;
-    border-left: 3px solid var(--brand);
-    border-bottom: 1px solid var(--brand);
-}
-
-/* slide */
+/* SLIDES  INICIO*/
 .slide-img {
     background-color: black;
     opacity: 50%;
 }
 
+.slide-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.slide-text {
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.carousel-item {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators {
+    height: 50px;
+}
+
 .carousel-caption {
-    background-color: rgb(0,0,0,.5);
+    background-color: rgb(0,0,0, .5);
     width: 100%;
     left: 0;
     bottom: 0;
 }
+/* SLIDES  FIM */
 
 .intro {
     margin-bottom: 36px;
@@ -313,36 +368,6 @@ input[name=Pesquisa] {
 .project h6 {
     color: #fff;
 }
-
-/* SLIDES  INICIO*/
-
-.slide-title {
-    font-size: 40px;
-    font-weight: 600;
-    color: white;
-
-}
-
-.slide-text {
-    font-size: 30px;
-    font-weight: 100;
-    color: white;
-    padding-bottom: 5%;
-}
-
-.carousel-item {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.carousel-indicators {
-    height: 50px;
-}
-
-/* SLIDES  FIM */
-
 
 #reviews {
     background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg), #082032;

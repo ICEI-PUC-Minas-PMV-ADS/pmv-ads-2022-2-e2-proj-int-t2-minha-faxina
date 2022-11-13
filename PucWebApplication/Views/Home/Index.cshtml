@@ -76,12 +76,12 @@
                 {
                     <div class="nav-item usuario">
                         <div class="dropdown">
-  <button class="dropdown-toggle usuario" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-       Olá, @User.Identity.Name
+  <button class="usuario dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Olá, @User.Identity.Name
   </button>
   <ul class="dropdown-menu">
-    <li><a asp-controller="Usuarios" asp-action="MeuPerfil" class="dropdown-item">Meu Perfil</a></li>
-    <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item" style="color: red">Sair</a></></li>
+    <li><a class="dropdown-item first-item" href="#">Meu Perfil</a></li><hr>
+    <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item last-item">Sair</a></li>
   </ul>
 </div>
                     </div>
@@ -89,12 +89,12 @@
                 else
                 {
                     <div class="nav-item usuario">
-                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="botao ms-lg-3">
-                            Fazer
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="botao">
                             Login
                         </button>
                     </div>
                 }
+
             </div>
 
         </div>
@@ -126,7 +126,7 @@
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="form-group">
                             <label asp-for="Email" class="control-label h-input"></label>
-                            <input asp-for="Email" class="form-control b-input" />                            
+                            <input asp-for="Email" class="form-control  b-input" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
                         <div class="form-group">
@@ -152,44 +152,6 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-@if (User.Identity.IsAuthenticated)
-                {
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity."><br />
-                    <input type="text" placeholder="@User.Identity."><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name"><br />
-                    <input type="text" placeholder="@User.Identity.Name">
-
-                }
-=======
-    <h2>Enviar dados do JavaScript para o HTML através do ID - getElementById</h2>
-    <span id="nome-usuario"></span>
-
-    <h2>Enviar dados do JavaScript para o HTML através do Class - getElementsByClassName</h2>
-    <span class="turma-usuario"></span><br>
-
-    <h2>Enviar dados do JavaScript para o HTML através do Class - getElementsByClassName</h2>
-    <span class="turma-usuario"></span><br>
-
-    <h2>Enviar dados do JavaScript para o HTML através do Class - querySelector</h2>
-    <span class="modulo"></span>
-
-    <h2>Enviar dados do JavaScript para o HTML através do ID - querySelector</h2>
-    <span id="qnt-aula-visualizada"></span>
-
-    <h2>Verificar no JavaScript se existe o atributo com o seletor na página HTML. Enviar dados do JavaScript para o
-        HTML através do ID - querySelector</h2>
-    <span id="sit-inscricao"></span>
-
->>>>>>> 1d190e5438dd84f0fa524c5b89027dc071e7e3e7
     <!-- slide -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -464,6 +426,7 @@
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/app.js"></script>
+    <script src="/js/teste.js"></script>
 
 </body>
 
