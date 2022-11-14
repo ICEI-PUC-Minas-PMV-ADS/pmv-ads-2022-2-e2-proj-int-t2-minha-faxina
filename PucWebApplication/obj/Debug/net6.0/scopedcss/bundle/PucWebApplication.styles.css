@@ -18,7 +18,8 @@ a[b-2ntadevjpf] {
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-2ntadevjpf], .nav-pills .show > .nav-link[b-2ntadevjpf] {
+.nav-pills .nav-link.active[b-2ntadevjpf],
+.nav-pills .show>.nav-link[b-2ntadevjpf] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -27,6 +28,7 @@ a[b-2ntadevjpf] {
 .border-top[b-2ntadevjpf] {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-2ntadevjpf] {
   border-bottom: 1px solid #e5e5e5;
 }

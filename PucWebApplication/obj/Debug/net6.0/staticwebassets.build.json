@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dw+/eUB8XZePH96wO+3p/q6G/GbIifJNxfrImTEjWgY=",
+  "Hash": "n4fsaLCo1eNQ/xdcADjh6etuYCxZ80gR5tLpARwBztM=",
   "Source": "PucWebApplication",
   "BasePath": "_content/PucWebApplication",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\index.css",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
-      "BasePath": "_content/PucWebApplication",
-      "RelativePath": "css/index.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\css\\inicio.css",
@@ -578,6 +561,23 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\r-architecture-wot0Q5sg91E-unsplash.jpg"
     },
     {
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\search.png",
+      "SourceId": "PucWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
+      "BasePath": "_content/PucWebApplication",
+      "RelativePath": "Imagens/search.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\search.png"
+    },
+    {
       "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\Imagens\\slide 1.jpg",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
@@ -731,40 +731,6 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\cadastro-contrat.js",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
-      "BasePath": "_content/PucWebApplication",
-      "RelativePath": "js/cadastro-contrat.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\cadastro-contrat.js"
-    },
-    {
-      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\index.js",
-      "SourceId": "PucWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
-      "BasePath": "_content/PucWebApplication",
-      "RelativePath": "js/index.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\index.js"
-    },
-    {
       "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\jquery.min.js",
       "SourceId": "PucWebApplication",
       "SourceType": "Discovered",
@@ -797,6 +763,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\owl.carousel.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\js\\teste.js",
+      "SourceId": "PucWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\",
+      "BasePath": "_content/PucWebApplication",
+      "RelativePath": "js/teste.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\teste.js"
     },
     {
       "Identity": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

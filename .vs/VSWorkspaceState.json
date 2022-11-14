@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\PucWebApplication",
-    "\\PucWebApplication\\bin",
     "\\PucWebApplication\\Views",
-    "\\PucWebApplication\\Views\\Home"
+    "\\PucWebApplication\\Views\\Home",
+    "\\PucWebApplication\\Views\\Usuarios"
   ],
-  "SelectedNode": "\\PucWebApplication\\Program.cs",
+  "SelectedNode": "\\PucWebApplication\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
