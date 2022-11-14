@@ -4,14 +4,8 @@
     "\\PucWebApplication",
     "\\PucWebApplication\\Views",
     "\\PucWebApplication\\Views\\Home",
-    "\\PucWebApplication\\Views\\Usuarios",
-    "\\PucWebApplication\\wwwroot",
-    "\\PucWebApplication\\wwwroot\\css"
+    "\\PucWebApplication\\Views\\Usuarios"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\PucWebApplication\\wwwroot\\css\\inicio.css",
-=======
-  "SelectedNode": "\\PucWebApplication\\Program.cs",
->>>>>>> aa03d2b44cd22db9ed05e624b7f2fcedacb63996
+  "SelectedNode": "\\PucWebApplication\\Views\\Usuarios\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -20,13 +20,6 @@
   <ItemGroup>
     <Content Remove="wwwroot\css\site.css" />
     <Content Remove="wwwroot\js\JavaScript.js" />
-<<<<<<< HEAD
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Views\Usuarios\htmlpage.html" />
-=======
->>>>>>> 2543114c5d58b4c9cb0cd085275d4a46510404db
   </ItemGroup>
 
   <ItemGroup>
