@@ -13,6 +13,9 @@
 *.sln.docstates
 *.v5.2
 *.v2
+*.cache
+*.editorconfig
+*.sqlite
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
