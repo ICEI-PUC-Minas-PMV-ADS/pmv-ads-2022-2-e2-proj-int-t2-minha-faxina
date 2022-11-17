@@ -115,8 +115,13 @@ namespace PucWebApplication.Controllers
             return View(usuario);
         }
 
+        public IActionResult MeuPerfil()
+        {
+            return View();
+        }
+
         // GET: Usuarios/Create
-        
+
         public IActionResult Create()
         {
             return View();
