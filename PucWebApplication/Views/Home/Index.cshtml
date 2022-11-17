@@ -103,7 +103,7 @@
             <div class="col-auto pesquisa">
                 <!-- <p> <i class='bx bxs-envelope'></i> minhafaxina@example.com</p>
                         <p> <i class='bx bxs-phone-call'></i> (31) 9555-0114</p> -->
-                @using (Html.BeginForm("Pesquisa", "Resultado", FormMethod.Get))
+                @using (Html.BeginForm("Index", "Usuarios", FormMethod.Get))
                 {
                     <input type="text" name="Pesquisa" placeholder="Pesquise por nome, endereço ou CEP">
                     <input type="submit" value=" " class="botao-pesquisa" />
@@ -111,7 +111,7 @@
             </div>
         </div>
     </nav>
-  
+
 
 
     <!-- Modal Login -->
@@ -146,7 +146,7 @@
                     <div class="inscreva-se">
                         <p>Ainda não é cadastrado? </p>
                         <a class="botao-inscrever" asp-controller="Usuarios" asp-action="create"
-                            style="text-decoration: none; color: rgb(0, 176, 103);"> Inscreva-se</a>
+                            style="text-decoration: none; color: rgb(0, 176, 103);"> Inscreva-se</a></a>
                     </div>
                 </div>
             </div>
