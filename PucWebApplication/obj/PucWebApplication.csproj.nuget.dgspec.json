@@ -1,53 +1,24 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 089f35bf82f9fb49171386c0f6b5b943806720e6
-    "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {}
+    "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-9edca9addff13aee447b9ba57c036785e38a85e5\\PucWebApplication\\PucWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {
+    "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-9edca9addff13aee447b9ba57c036785e38a85e5\\PucWebApplication\\PucWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-9edca9addff13aee447b9ba57c036785e38a85e5\\PucWebApplication\\PucWebApplication.csproj",
         "projectName": "PucWebApplication",
-        "projectPath": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+        "projectPath": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-9edca9addff13aee447b9ba57c036785e38a85e5\\PucWebApplication\\PucWebApplication.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilh\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
-<<<<<<< HEAD
-=======
-=======
-    "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
-        "projectName": "PucWebApplication",
-        "projectPath": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
-        "packagesPath": "C:\\Users\\RAFAEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
->>>>>>> 9edca9addff13aee447b9ba57c036785e38a85e5
->>>>>>> 089f35bf82f9fb49171386c0f6b5b943806720e6
+        "outputPath": "C:\\Users\\guilh\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina-9edca9addff13aee447b9ba57c036785e38a85e5\\PucWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-<<<<<<< HEAD
-          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "C:\\Users\\RAFAEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9edca9addff13aee447b9ba57c036785e38a85e5
->>>>>>> 089f35bf82f9fb49171386c0f6b5b943806720e6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
