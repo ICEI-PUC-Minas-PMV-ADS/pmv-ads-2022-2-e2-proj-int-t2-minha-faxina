@@ -540,3 +540,7 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,aspnetcore
 /.vs/ProjectEvaluation/pucwebapplication.metadata.v5.2
+/.vs/PucWebApplication/DesignTimeBuild/.dtbcache.v2
+/.vs/PucWebApplication/v17/.suo
+/.vs/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/v17/.wsuo
+/.vs/slnx.sqlite
