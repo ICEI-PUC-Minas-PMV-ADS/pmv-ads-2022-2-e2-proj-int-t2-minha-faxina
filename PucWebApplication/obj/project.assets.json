@@ -10000,19 +10000,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ph630\\.nuget\\packages\\": {}
+    "C:\\Users\\RAFAEL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
       "projectName": "PucWebApplication",
-      "projectPath": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
-      "packagesPath": "C:\\Users\\ph630\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ph630\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
+      "projectPath": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\PucWebApplication.csproj",
+      "packagesPath": "C:\\Users\\RAFAEL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RAFAEL\\Documents\\GitHub\\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\\PucWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ph630\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RAFAEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10094,7 +10094,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

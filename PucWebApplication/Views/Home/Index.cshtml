@@ -76,14 +76,14 @@
                 {
                     <div class="nav-item usuario">
                         <div class="dropdown">
-  <button class="usuario dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Olá, @User.Identity.Name
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item first-item" href="#">Meu Perfil</a></li><hr>
-    <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item last-item">Sair</a></li>
-  </ul>
-</div>
+                      <button class="usuario dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Olá, @User.Identity.Name
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a asp-controller="Usuarios" asp-action="Perfil" class="dropdown-item last-item">Meu Perfil</a></li><hr>
+                        <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item last-item">Sair</a></li>
+                      </ul>
+                    </div>
                     </div>
                 }
                 else
