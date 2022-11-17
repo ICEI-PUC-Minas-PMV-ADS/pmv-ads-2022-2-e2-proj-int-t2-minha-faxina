@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\HomeController1.cs" />
-    <Compile Remove="Views\Usuarios\MeuPerfil.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +22,12 @@
     <Content Remove="Views\Usuarios\MeuPerfil.cshtml" />
     <Content Remove="Views\Usuarios\View.cshtml" />
     <Content Remove="wwwroot\css\site.css" />
+    <Content Remove="wwwroot\css\StyleSheet1.css" />
     <Content Remove="wwwroot\js\JavaScript.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Usuarios\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
