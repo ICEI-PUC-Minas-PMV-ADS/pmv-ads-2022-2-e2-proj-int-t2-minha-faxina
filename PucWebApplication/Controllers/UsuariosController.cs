@@ -74,7 +74,11 @@ namespace PucWebApplication.Controllers
         
         public IActionResult AccessDenied() {
             return View();
-        }                
+        }
+
+        public IActionResult Perfil() {
+            return View();
+        }
 
         // GET: Usuarios
         public IActionResult Index(string Pesquisa = "")
