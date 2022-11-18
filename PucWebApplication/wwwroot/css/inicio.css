@@ -6,14 +6,12 @@
     --body: #516171;
     --border: rgba(0, 0, 0, 0.08);
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-
 }
 
 body {
     font-family: "Barlow", sans-serif;
     color: var(--body);
     line-height: 1.7;
-
 }
 
 h1,
@@ -59,14 +57,13 @@ section {
     color: white;
     font-weight: 500;
     transition: 0.3;
-
 }
 
-.botao:hover {
-    background-color: white;
-    border: 1px solid var(--brand);
-    color: var(--brand);
-}
+    .botao:hover {
+        background-color: white;
+        border: 1px solid var(--brand);
+        color: var(--brand);
+    }
 
 /* input form */
 .form-control {
@@ -77,9 +74,9 @@ section {
     margin-bottom: 20px;
 }
 
-.form-control:focus {
-    border-color: var(--brand);
-}
+    .form-control:focus {
+        border-color: var(--brand);
+    }
 
 .h-input {
     width: 450px;
@@ -99,40 +96,39 @@ section {
     color: var(--dark);
 }
 
-.navbar .navbar-nav .nav-link:hover {
-    color: var(--brand);
-}
+    .navbar .navbar-nav .nav-link:hover {
+        color: var(--brand);
+    }
 
-.navbar .navbar-nav .nav-link.active {
-    color: var(--brand);
-}
+    .navbar .navbar-nav .nav-link.active {
+        color: var(--brand);
+    }
 
 .navbar-brand {
     font-size: 28px;
     font-weight: 700;
 }
 
-.navbar-brand .dot {
-    color: var(--brand);
+    .navbar-brand .dot {
+        color: var(--brand);
+    }
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.navbar-nav{
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.usuario{
-    text-decoration:none;
+.usuario {
+    text-decoration: none;
     color: var(--brand);
     border: none;
-    background:white;
 }
 
-.dropdown-menu{
-    width:100%;
+.dropdown-menu {
+    width: 100%;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     background-color: var(--brand);
     color: white;
     font-weight: 500;
@@ -143,17 +139,17 @@ section {
     margin-top: -10px;
 }
 
-.last-item { 
+.last-item {
     text-decoration: none;
     color: red;
     margin-bottom: -10px;
     margin-top: -17px;
 }
 
-.last-item:hover {
-    background-color: red;
-    color: white;
-}
+    .last-item:hover {
+        background-color: red;
+        color: white;
+    }
 
 /* BARRA DE PESQUISA */
 .pesquisa {
@@ -266,9 +262,9 @@ input[name=Pesquisa] {
     width: 100%;
     left: 0;
     bottom: 0;
-    text-shadow: 
-/* SLIDES  FIM */
-
+}
+    /* SLIDES  FIM */
+        
 .intro {
     margin-bottom: 36px;
     text-align: center;
@@ -294,9 +290,9 @@ input[name=Pesquisa] {
     display: flex;
 }
 
-.info-box img {
-    width: 90px;
-}
+    .info-box img {
+        width: 90px;
+    }
 
 
 /* #milestone {
@@ -316,17 +312,17 @@ input[name=Pesquisa] {
     box-shadow: var(--shadow);
 }
 
-.service h5 {
-    margin-top: 24px;
-    margin-bottom: 14px;
-}
+    .service h5 {
+        margin-top: 24px;
+        margin-bottom: 14px;
+    }
 
-.service img {
-    width: 80px !important;
-    height: 80px;
-    border-radius: 100px;
-    margin: auto;
-}
+    .service img {
+        width: 80px !important;
+        height: 80px;
+        border-radius: 100px;
+        margin: auto;
+    }
 
 
 .project {
@@ -335,44 +331,43 @@ input[name=Pesquisa] {
     z-index: 2;
 }
 
-.project h6 {
-    font-weight: 400;
-}
+    .project h6 {
+        font-weight: 400;
+    }
 
-.project h6::before {
-    content: "";
-    height: 2px;
-    width: 30px;
-    display: inline-block;
-    background: var(--brand);
-    vertical-align: middle;
-    margin-right: 10px;
-}
+        .project h6::before {
+            content: "";
+            height: 2px;
+            width: 30px;
+            display: inline-block;
+            background: var(--brand);
+            vertical-align: middle;
+            margin-right: 10px;
+        }
 
 
-.project .overlay {
-    width: 100%;
-    height: 220px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(180deg, rgba(255, 76, 41, 0) 0%, var(--dark) 100%);
-}
+    .project .overlay {
+        width: 100%;
+        height: 220px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(255, 76, 41, 0) 0%, var(--dark) 100%);
+    }
 
-.project .content {
-    position: absolute;
-    left: 10%;
-    bottom: 10%
-}
+    .project .content {
+        position: absolute;
+        left: 10%;
+        bottom: 10%
+    }
 
-.project h2,
-.project h6 {
-    color: #fff;
-}
+    .project h2,
+    .project h6 {
+        color: #fff;
+    }
 
 #reviews {
     background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/Imagens/pretty-woman-cleaning-kitchen-shelf-with-soft-feather-duster.jpg), #082032;
-    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -387,45 +382,45 @@ input[name=Pesquisa] {
     margin: auto;
 }
 
-.review .bxs-quote-alt-left {
-    font-size: 120px;
-    position: absolute;
-    opacity: 0.1;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-}
+    .review .bxs-quote-alt-left {
+        font-size: 120px;
+        position: absolute;
+        opacity: 0.1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
 
-.review img {
-    width: 80px !important;
-    height: 80px;
-    border-radius: 100px;
-    margin: auto;
-}
+    .review img {
+        width: 80px !important;
+        height: 80px;
+        border-radius: 100px;
+        margin: auto;
+    }
 
-.review h5 {
-    margin-top: 16px;
-    margin-bottom: 4px;
-    color: #fff;
-}
+    .review h5 {
+        margin-top: 16px;
+        margin-bottom: 4px;
+        color: #fff;
+    }
 
-.review h3 {
-    margin-top: 26px;
-    margin-bottom: 26px;
-    font-size: 22px;
-    color: #fff;
-    font-weight: 400;
-    line-height: 1.7;
-}
+    .review h3 {
+        margin-top: 26px;
+        margin-bottom: 26px;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.7;
+    }
 
-.review small {
-    color: var(--brand);
-}
+    .review small {
+        color: var(--brand);
+    }
 
-.review .stars {
-    color: var(--brand);
-}
+    .review .stars {
+        color: var(--brand);
+    }
 
 .blog-post {
     position: relative;
@@ -443,10 +438,10 @@ footer {
     background-repeat: no-repeat;
 }
 
-footer .footer-top {
-    padding-top: 80px;
-    padding-bottom: 40px;
-}
+    footer .footer-top {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
