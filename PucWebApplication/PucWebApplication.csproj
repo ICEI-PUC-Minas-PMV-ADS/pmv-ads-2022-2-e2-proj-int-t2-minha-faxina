@@ -21,6 +21,8 @@
   <ItemGroup>
     <Content Remove="Views\Usuarios\Index1.cshtml" />
     <Content Remove="Views\Usuarios\MeuPerfil.cshtml" />
+    <Content Remove="Views\Usuarios\MeuPerfill.cshtml" />
+    <Content Remove="Views\Usuarios\Perfil.cshtml" />
     <Content Remove="Views\Usuarios\View.cshtml" />
     <Content Remove="wwwroot\css\site.css" />
     <Content Remove="wwwroot\js\JavaScript.js" />
