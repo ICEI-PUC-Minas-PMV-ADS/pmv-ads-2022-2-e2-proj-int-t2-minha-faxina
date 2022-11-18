@@ -106,7 +106,7 @@
             <div class="col-auto pesquisa">
                 <!-- <p> <i class='bx bxs-envelope'></i> minhafaxina@example.com</p>
                         <p> <i class='bx bxs-phone-call'></i> (31) 9555-0114</p> -->
-                @using (Html.BeginForm("Index", "Usuarios", FormMethod.Get))
+                @using (Html.BeginForm("Pesquisa", "Resultado", FormMethod.Get))
                 {
                     <input type="text" name="Pesquisa" placeholder="Pesquise por nome, endereço ou CEP">
                     <input type="submit" value=" " class="botao-pesquisa" />
