@@ -591,3 +591,9 @@ FodyWeavers.xsd
 /PucWebApplication/obj/Debug/net6.0/PucWebApplication.dll
 /PucWebApplication/obj/Debug/net6.0/PucWebApplication.csproj.FileListAbsolute.txt
 /.vs/slnx.sqlite
+/PucWebApplication/wwwroot/css/bootstrap.min.css
+/PucWebApplication/wwwroot/css/inicio.css
+/PucWebApplication/obj/Debug/net6.0/project.razor.vs.json
+/PucWebApplication/wwwroot/css/inicio.css
+/PucWebApplication/wwwroot/css/bootstrap.min.css
+/PucWebApplication/obj/Debug/net6.0/project.razor.vs.json
