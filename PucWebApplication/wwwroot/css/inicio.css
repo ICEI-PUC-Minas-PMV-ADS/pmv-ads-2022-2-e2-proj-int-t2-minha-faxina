@@ -71,8 +71,8 @@ section {
 /* input form */
 .form-control {
     width: 450px;
-    background-color: rgba(0, 0, 0, .09);
-    border-color: rgba(0, 0, 0, 0.04);
+    background-color: rgba(0, 0, 0, .02);
+    border-color: rgba(0, 0, 0, 0.02);
     border-radius: 0px;
     margin-bottom: 20px;
 }
@@ -93,6 +93,16 @@ section {
 .top-nav {
     background-color: var(--brand);
     height: 40px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-family:Arial;
+    font-weight:600;
+}
+
+.nav-item{
+    margin-right: 4%;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -266,7 +276,7 @@ input[name=Pesquisa] {
     width: 100%;
     left: 0;
     bottom: 0;
-    text-shadow: 
+}
 /* SLIDES  FIM */
 
 .intro {

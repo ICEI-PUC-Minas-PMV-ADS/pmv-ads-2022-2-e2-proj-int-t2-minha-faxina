@@ -55,11 +55,27 @@ body {
     color: white;
 }
 
+.h-input {
+    width: 450px;
+    padding-left: 5px;
+    margin: 5px 0px;
+    border-left: 3px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+}
 
 /* navbar */
 .top-nav {
     background-color: var(--brand);
     height: 40px;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.nav-item {
+    margin-right: 4%;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -197,6 +213,7 @@ input[name=Pesquisa] {
     .botao-inscrever:hover {
         opacity: 0.5;
     }
+
 
 .title {
     font-size: 80px;
