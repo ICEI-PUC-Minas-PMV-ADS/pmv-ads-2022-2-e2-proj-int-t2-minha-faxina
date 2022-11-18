@@ -545,3 +545,8 @@ FodyWeavers.xsd
 /.vs/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/v17/.wsuo
 /.vs/slnx.sqlite
 /PucWebApplication/obj/Debug/net6.0/PucWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/PucWebApplication/DesignTimeBuild/.dtbcache.v2
+/.vs/PucWebApplication/v17/.suo
+/PucWebApplication/bin/Debug/net6.0/PucWebApplication.dll
+/PucWebApplication/bin/Debug/net6.0/PucWebApplication.pdb
+/PucWebApplication/bin/Debug/net6.0/PucWebApplication.staticwebassets.runtime.json

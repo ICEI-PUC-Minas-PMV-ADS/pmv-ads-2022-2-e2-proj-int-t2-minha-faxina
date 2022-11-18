@@ -13,12 +13,12 @@ namespace PucWebApplication.Controllers
         {
             _context = context;
         }
-        public IActionResult Pesquisa(string Pesquisas = "")
+        public IActionResult Pesquisa(string Pesquisa = "")
         {
             var q = _context.Usuario.AsQueryable();
-            if (!string.IsNullOrEmpty(Pesquisas))
+            if (!string.IsNullOrEmpty(Pesquisa))
             {
-                q = q.Where(c => c.Bairro.Contains(Pesquisas));
+                q = q.Where(c => c.Bairro.Contains(Pesquisa));
                 q = q.OrderBy(c => c.Nome);
 
 
