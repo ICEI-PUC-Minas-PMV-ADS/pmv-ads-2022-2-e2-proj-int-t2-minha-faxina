@@ -67,23 +67,48 @@ section {
 
 /* input form */
 .form-control {
-    width: 450px;
-    background-color: rgba(0, 0, 0, .02);
-    border-color: rgba(0, 0, 0, 0.04);
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-color: rgba(0, 0, 0, 0.1);
     border-radius: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
+.edit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#salvar {
+    font-size: 25px;
+    margin: auto;
+    width: 350px;
+}
+
+.form-group {
+    margin:auto;
+    margin-bottom: 20px;
+}
     .form-control:focus {
         border-color: var(--brand);
     }
 
 .h-input {
-    width: 450px;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    width: 400px;
     padding-left: 5px;
     margin: 5px 0px;
-    border-left: 3px solid var(--brand);
-    border-bottom: 1px solid var(--brand);
+    border-left: 4px solid var(--brand);
+    border-bottom: 2px solid var(--brand);
 }
 
 /* navbar */
@@ -435,7 +460,15 @@ input[name=Pesquisa] {
     box-shadow: var(--shadow);
 }
 
+/* Title das Páginas Secundárias */
 
+.title{
+    text-align:center;
+    font-size: 40px;
+    color: white;
+    background-color: var(--brand);
+    padding-left: 2%;
+}
 
 footer {
     background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(/Imagens/woman-in-kitchen-looking-at-the-camera.jpg), #082032;
