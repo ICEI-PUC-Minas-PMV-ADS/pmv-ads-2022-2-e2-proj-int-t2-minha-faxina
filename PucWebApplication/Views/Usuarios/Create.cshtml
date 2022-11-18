@@ -38,7 +38,7 @@
     <!-- MENU NAV -->
     <nav class=" navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="navbar container">
-            <img src="/Imagens/Logo.jpg" class="logo">
+            <a asp-controller="Home" asp-action="Index"><img src="/Imagens/Logo.jpg" class="logo" style="width:150px; margin-bottom: 10px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,19 +46,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Inicio</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-link" href="#home">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-link" href="#about">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Serviços</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-link" href="#services">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Faxineiras</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-link" href="#portfolio">Faxineiras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Time</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-link" href="#team">Time</a>
                     </li>
                     <!-- <li class="nav-item">
                             <a class="nav-link" href="#reviews">Reviews</a>
