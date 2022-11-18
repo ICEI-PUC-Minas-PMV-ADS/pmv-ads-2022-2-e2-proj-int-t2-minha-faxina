@@ -596,3 +596,8 @@ FodyWeavers.xsd
 /.vs/ProjectEvaluation/pucwebapplication.projects.v5.2
 /PucWebApplication/obj/Debug/net6.0/project.razor.vs.json
 /PucWebApplication/obj/Release/net6.0/PucWebApplication.assets.cache
+/PucWebApplication/obj/Debug/net6.0/project.razor.json
+/PucWebApplication/obj/Debug/net6.0/refint/PucWebApplication.dll
+/PucWebApplication/obj/Debug/net6.0/ref/PucWebApplication.dll
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
