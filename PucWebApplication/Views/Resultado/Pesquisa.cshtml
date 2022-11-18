@@ -1,4 +1,4 @@
-﻿@model PucWebApplication.Models.Usuario
+﻿@model IEnumerable<PucWebApplication.Models.Usuario>
 @{
     ViewData["Title"] = "login";
     ViewData["Title"] = "index";
@@ -28,7 +28,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Configuração Style -->
-    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/Pesquisa.css">
     <!-- Fim Configuração Style -->
 </head>
 
@@ -38,7 +38,6 @@
     <!-- TOP NAV -->
     <div class="top-nav" id="home">
     </div>
-
 
     <!-- MENU NAV -->
     <nav class=" navbar-expand-lg navbar-light bg-white sticky-top">
@@ -75,7 +74,6 @@
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item first-item" href="#">Meu Perfil</a></li>
-                                <hr>
                                 <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item last-item">Sair</a></li>
                             </ul>
                         </div>
@@ -95,13 +93,99 @@
         </div>
         <div>
             <div class="col-auto pesquisa">
-                @using (Html.BeginForm("Index", "Usuarios", FormMethod.Get))
+                @using (Html.BeginForm("Pesquisa", "Resultado", FormMethod.Get))
                 {
-                    <input type="text" name="Pesquisa" placeholder="Pesquise por nome, endereço ou CEP">
+                    <input type="text" name="Pesquisas" placeholder="Pesquise por nome, endereço ou CEP">
                     <input type="submit" value=" " class="botao-pesquisa" />
                 }
             </div>
         </div>
     </nav>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cpf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Idade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cep)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Rua)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Numero)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Complemento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Bairro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cidade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Perfil)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.cpf)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Idade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.cep)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rua)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Numero)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Complemento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Bairro)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Perfil)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </body>
 </HTML>

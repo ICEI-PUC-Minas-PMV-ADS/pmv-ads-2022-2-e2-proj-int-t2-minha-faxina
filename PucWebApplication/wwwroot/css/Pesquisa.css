@@ -1,0 +1,175 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+:root {
+    --brand: rgb(0, 176, 103);
+    --dark: black;
+    --body: #516171;
+    --border: rgba(0, 0, 0, 0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 15%;
+    padding: 1%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-brand {
+    color: var(--brand) !important;
+}
+
+.botao {
+    width: 100px;
+    text-decoration: none;
+    border: 1px solid var(--brand);
+    border-radius: 5px;
+    background-color: var(--brand);
+    color: white;
+    font-weight: 500;
+    transition: 0.3;
+}
+
+    .botao:hover {
+        background-color: white;
+        border: 1px solid var(--brand);
+        color: var(--brand);
+    }
+
+/* input form */
+.form-control {
+    width: 450px;
+    background-color: rgba(0, 0, 0, .09);
+    border-color: rgba(0, 0, 0, 0.04);
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+    .form-control:focus {
+        border-color: var(--brand);
+    }
+
+.h-input {
+    width: 450px;
+    padding-left: 5px;
+    margin: 5px 0px;
+    border-left: 3px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+}
+
+/* navbar */
+.top-nav {
+    background-color: var(--brand);
+    height: 40px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+}
+
+    .navbar .navbar-nav .nav-link:hover {
+        color: var(--brand);
+    }
+
+    .navbar .navbar-nav .nav-link.active {
+        color: var(--brand);
+    }
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+    .navbar-brand .dot {
+        color: var(--brand);
+    }
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.usuario {
+    text-decoration: none;
+    color: var(--brand);
+    border: none;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-item:hover {
+    background-color: var(--brand);
+    color: white;
+    font-weight: 500;
+}
+
+.first-item {
+    margin-bottom: -17px;
+    margin-top: -10px;
+}
+
+.last-item {
+    text-decoration: none;
+    color: red;
+    margin-bottom: -10px;
+    margin-top: -17px;
+}
+
+    .last-item:hover {
+        background-color: red;
+        color: white;
+    }
+
+/* BARRA DE PESQUISA */
+.pesquisa {
+    text-align: center;
+}
+
+.botao-pesquisa {
+    border: none;
+    width: 35px;
+    background: none;
+    background-image: url(../Imagens/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+input[name=Pesquisa] {
+    width: 95%;
+    border: none;
+    border-left: 3px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+    margin-bottom: 20px;
+}
