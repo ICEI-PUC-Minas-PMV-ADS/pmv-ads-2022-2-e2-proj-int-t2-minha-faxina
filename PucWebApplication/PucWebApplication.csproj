@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\HomeController1.cs" />
+    <Compile Remove="Views\Usuarios\MeuPerfil.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
