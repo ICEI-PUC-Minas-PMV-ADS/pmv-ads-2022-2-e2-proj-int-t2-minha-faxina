@@ -72,7 +72,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#blog">Blog</a>
                         </li> -->
-                </ul>
+                </ul>                    
+                
                 @if (User.Identity.IsAuthenticated)
                 {
                     <div class="nav-item usuario">
@@ -80,9 +81,9 @@
                       <button class="usuario dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Olá, @User.Identity.Name
                       </button>
-                      <ul class="dropdown-menu">
-                        <li><a asp-controller="Usuarios" asp-action="Perfil" class="dropdown-item last-item">Meu Perfil</a></li><hr>
-                        <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item last-item">Sair</a></li>
+                      <ul class="dropdown-menu">                           
+                            <li><a asp-controller="Usuarios" asp-action="Edit" asp-route-id="@User.Identity.Name" class="dropdown-item last-item">Meu Perfil</a></li><hr>
+                            <li><a asp-controller="Usuarios" asp-action="Logout" class="dropdown-item last-item">Sair</a></li>
                       </ul>
                     </div>
                     </div>
@@ -95,6 +96,8 @@
                         </button>
                     </div>
                 }
+                
+                
 
             </div>
 

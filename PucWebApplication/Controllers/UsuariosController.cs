@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +29,7 @@ namespace PucWebApplication.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> login([Bind("Email,Senha")]Usuario usuario) {
+        public async Task<IActionResult> login([Bind("Id,Email,Senha")]Usuario usuario) {
             var user = await _context.Usuario
                 .FirstOrDefaultAsync(m => m.Email == usuario.Email);
 
@@ -76,9 +77,7 @@ namespace PucWebApplication.Controllers
             return View();
         }
 
-        public IActionResult Perfil() {
-            return View();
-        }
+        
 
         // GET: Usuarios
         public IActionResult Index(string Pesquisa = "")
@@ -149,14 +148,15 @@ namespace PucWebApplication.Controllers
         }
 
         // GET: Usuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string? id)
         {
             if (id == null || _context.Usuario == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuario.FindAsync(id);
+            var usuario = await _context.Usuario
+                .FirstOrDefaultAsync(m => m.Nome == id);
             if (usuario == null)
             {
                 return NotFound();
