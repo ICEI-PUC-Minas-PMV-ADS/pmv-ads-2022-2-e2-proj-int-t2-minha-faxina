@@ -125,6 +125,7 @@ section {
     text-decoration:none;
     color: var(--brand);
     border: none;
+    background:white;
 }
 
 .dropdown-menu{
