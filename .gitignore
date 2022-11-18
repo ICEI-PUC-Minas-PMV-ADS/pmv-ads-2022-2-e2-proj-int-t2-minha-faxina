@@ -544,3 +544,4 @@ FodyWeavers.xsd
 /.vs/PucWebApplication/v17/.suo
 /.vs/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/v17/.wsuo
 /.vs/slnx.sqlite
+/PucWebApplication/obj/Debug/net6.0/PucWebApplication.GeneratedMSBuildEditorConfig.editorconfig
