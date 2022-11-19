@@ -21,6 +21,7 @@
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Configuração Style -->
     <link rel="stylesheet" href="/css/Pesquisa.css">
+    <link href="grid/simple-grid.min.css" rel="stylesheet">
     <!-- Fim Configuração Style -->
 </head>
 
@@ -103,27 +104,27 @@
 
                     @Html.DisplayNameFor(model => model.Cidade)
     </div>
-
+    <div class="row">
             @foreach (var item in Model)
             {
                 <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/team_1.jpg" style="width:18rem;" alt="Imagem de capa do card">
+            <img class="card-img-top" src="/Imagens/team_1.jpg" style="width:263px; margin-top:10px;" alt="Imagem de capa do card">
                     <div class="card-body">
                 <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Nome)</h5>
                     </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"> <b>Idade:</b> @Html.DisplayFor(modelItem => item.Idade) </li>
 
-                <li class="list-group-item"> <b>Cidade:</b>@Html.DisplayFor(modelItem => item.Cidade) </li>
+                <li class="list-group-item"> <b>Cidade:</b> @Html.DisplayFor(modelItem => item.Cidade) </li>
 
-                <li class="list-group-item"> <b>Bairro:</b>@Html.DisplayFor(modelItem => item.Bairro) </li>
+                <li class="list-group-item"> <b>Bairro:</b> @Html.DisplayFor(modelItem => item.Bairro) </li>
             </ul>
             <div class="card text-center">
                 <a href="#" style="color: var(--brand);" class="card-link">Entre em Contato</a>
             </div>
             </div>
             }
-
+    </div>
 </body>
 </HTML>
 

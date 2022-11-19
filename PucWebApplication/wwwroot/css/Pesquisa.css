@@ -173,3 +173,10 @@ input[name=Pesquisa] {
     border-bottom: 1px solid var(--brand);
     margin-bottom: 20px;
 }
+
+/* RESULATDO PESQUISA */
+
+.card {
+    margin: 20px;
+    margin-left: 100px;
+}
