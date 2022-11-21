@@ -15,32 +15,39 @@ using PucWebApplication.Models;
 
 namespace PucWebApplication.Controllers
 {
-    
+
     public class UsuariosController : Controller
     {
         private readonly Contexto _context;
+        private string caminhoServidor;
 
-        public UsuariosController(Contexto context)
+
+        public UsuariosController(Contexto context, IWebHostEnvironment sistema)
         {
             _context = context;
+            caminhoServidor = sistema.WebRootPath;
         }
-        
-        public IActionResult login() {
+
+        public IActionResult login()
+        {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> login([Bind("Id,Email,Senha")]Usuario usuario) {
+        public async Task<IActionResult> login([Bind("Id,Email,Senha")] Usuario usuario)
+        {
             var user = await _context.Usuario
                 .FirstOrDefaultAsync(m => m.Email == usuario.Email);
 
-            if(user == null) {
+            if (user == null)
+            {
                 ViewBag.Message = "Usuário e/ou Senha inválidos!";
                 return View();
             }
 
             bool isSenhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, user.Senha);
 
-            if (isSenhaOk) {
+            if (isSenhaOk)
+            {
 
                 var claims = new List<Claim> {
                     new Claim(ClaimTypes.Name, user.Nome),
@@ -52,7 +59,8 @@ namespace PucWebApplication.Controllers
 
                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
 
-                var props = new AuthenticationProperties {
+                var props = new AuthenticationProperties
+                {
                     AllowRefresh = true,
                     ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
                     IsPersistent = true
@@ -60,7 +68,7 @@ namespace PucWebApplication.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                
+
                 return Redirect("/Home");
             }
 
@@ -68,29 +76,53 @@ namespace PucWebApplication.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Logout() {
+        public async Task<IActionResult> Logout()
+        {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("index", "Home");            
+            return RedirectToAction("index", "Home");
         }
-        
-        public IActionResult AccessDenied() {
+
+        public IActionResult AccessDenied()
+        {
             return View();
         }
 
-        
+        //Subir Imagens do Usuário
+        public IActionResult Upload()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Upload(IFormFile foto)
+        {
+            string caminhoParaSalvaImagem = caminhoServidor + "\\ImagensUsuarioUpload\\";
+            string novoNomeParaImage = Guid.NewGuid().ToString() + "__________" + foto.FileName;
+            if (!Directory.Exists(caminhoParaSalvaImagem))
+            {
+                Directory.CreateDirectory(caminhoParaSalvaImagem);
+            }
+
+            using (var stream = System.IO.File.Create(caminhoParaSalvaImagem + novoNomeParaImage))
+            {
+                foto.CopyToAsync(stream);
+            }
+            return RedirectToAction("Upload");
+        }
 
         // GET: Usuarios
         public IActionResult Index(string Pesquisa = "")
         {
             var q = _context.Usuario.AsQueryable();
-            if (!string.IsNullOrEmpty(Pesquisa)) {                
-                q = q.Where(c => c.Bairro.Contains(Pesquisa));                
+            if (!string.IsNullOrEmpty(Pesquisa))
+            {
+                q = q.Where(c => c.Bairro.Contains(Pesquisa));
                 q = q.OrderBy(c => c.Nome);
 
-                
+
                 return View(q.ToList());
 
-            } 
+            }
 
             return View(_context.Usuario.ToList());
         }
@@ -232,14 +264,14 @@ namespace PucWebApplication.Controllers
             {
                 _context.Usuario.Remove(usuario);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UsuarioExists(int id)
         {
-          return _context.Usuario.Any(e => e.Id == id);
+            return _context.Usuario.Any(e => e.Id == id);
         }
     }
 }
