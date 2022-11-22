@@ -246,10 +246,11 @@
     </section>
 
     <!-- MILESTONE -->
-    <section class="bg-light" id="reviews">
-
-        <div class="owl-theme owl-carousel reviews-slider container">
-            <div class="review">
+<section class="bg-light" id="reviews">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class=" active">
+       <div class="review">
                 <div class="person">
                     <img src="/Imagens/team_1.jpg" alt="">
                     <h5>Isabela Ferreira</h5>
@@ -269,7 +270,9 @@
                 </div>
                 <i class='bx bxs-quote-alt-left'></i>
             </div>
-            <div class="review">
+    </div>
+    <div class="carousel-item">
+     <div class="review">
                 <div class="person">
                     <img src="/Imagens/team_2.jpg" alt="">
                     <h5>Juliana santana</h5>
@@ -289,7 +292,9 @@
                 </div>
                 <i class='bx bxs-quote-alt-left'></i>
             </div>
-            <div class="review">
+    </div>
+    <div class="carousel-item">
+      <div class="review">
                 <div class="person">
                     <img src="/Imagens/team_3.jpg" alt="">
                     <h5>Marcos Daniel</h5>
@@ -309,9 +314,18 @@
                 </div>
                 <i class='bx bxs-quote-alt-left'></i>
             </div>
-        </div>
-    </section>
-    <!-- serviços -->
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>    <!-- serviços -->
     @if (!User.IsInRole("Empregado"))
     {
 
