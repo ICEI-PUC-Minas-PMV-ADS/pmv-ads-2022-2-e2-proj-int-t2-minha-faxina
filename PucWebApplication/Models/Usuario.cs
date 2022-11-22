@@ -11,11 +11,11 @@ namespace PucWebApplication.Models {
 
         [Display(Name = "Nome")]
         [Column("Nome")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
 
         [Display(Name = "Email")]
         [Column("Email")]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Display(Name = "CPF")]
         [Column("CPF")]
@@ -31,7 +31,7 @@ namespace PucWebApplication.Models {
 
         [Display(Name = "Rua")]
         [Column("Rua")]
-        public string Rua { get; set; }
+        public string? Rua { get; set; }
 
         [Display(Name = "Número")]
         [Column("Numero")]
@@ -39,20 +39,20 @@ namespace PucWebApplication.Models {
 
         [Display(Name = "Complemento")]
         [Column("Complemento")]
-        public string Complemento { get; set; }
+        public string? Complemento { get; set; }
 
         [Display(Name = "Bairro")]
         [Column("Bairro")]
-        public string Bairro { get; set; }
+        public string? Bairro { get; set; }
 
         [Display(Name = "Cidade")]
         [Column("Cidade")]
-        public string Cidade { get; set; }
+        public string? Cidade { get; set; }
 
         [Display(Name = "Senha")]
         [Column("Senha")]
         [DataType(DataType.Password)]
-        public string Senha { get; set; }
+        public string? Senha { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o Perfil")]
         public Perfil Perfil { get; set; }
     }
