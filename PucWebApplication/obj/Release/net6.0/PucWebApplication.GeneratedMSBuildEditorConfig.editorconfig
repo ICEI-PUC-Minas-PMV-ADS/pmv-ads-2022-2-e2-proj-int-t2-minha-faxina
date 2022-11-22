@@ -9,109 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PucWebApplication
 build_property.RootNamespace = PucWebApplication
-build_property.ProjectDir = C:\Users\warle\OneDrive\Documentos\Faculdade\2º periodo\Projeto semestre\minha faxina\2.0\PucWebApplication\
+build_property.ProjectDir = C:\Users\USER\Documents\Projetos\Projeto\PucWebApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\warle\OneDrive\Documentos\Faculdade\2º periodo\Projeto semestre\minha faxina\2.0\PucWebApplication
+build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\Projetos\Projeto\PucWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Home/Index.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Home/Privacy.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Resultado/Pesquisa.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Resultado/Pesquisa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdWx0YWRvXFBlc3F1aXNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Shared/Error.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Teste/Create.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Teste/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Teste/Delete.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Teste/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Teste/Details.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Teste/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Teste/Edit.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Teste/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Teste/Index.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Teste/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/AccessDenied.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/Create.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/Delete.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/Details.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/Edit.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/Index.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Usuarios/login.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Usuarios/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Validation/Create.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Validation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Validation/Delete.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Validation/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Validation/Details.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Validation/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Validation/Edit.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Validation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Validation/Index.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Validation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/_ViewImports.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/_ViewStart.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/warle/OneDrive/Documentos/Faculdade/2º periodo/Projeto semestre/minha faxina/2.0/PucWebApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Documents/Projetos/Projeto/PucWebApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2ntadevjpf
