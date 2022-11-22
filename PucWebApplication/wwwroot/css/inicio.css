@@ -470,6 +470,35 @@ input[name=Pesquisa] {
     padding-left: 2%;
 }
 
+/* Configuração Foto de Perfil */
+.fotoperfil{
+    justify-content: center;
+    align-items:center;
+    width: 300px;
+    height: 300px;
+    background-image:url(/Imagens/20171206_01.jpg);
+    background-size: cover;
+    cursor:pointer;
+    
+}
+
+.botao-imagem {
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    border: 1px solid var(--brand);
+    background-color: var(--brand);
+    color: white;
+    font-weight: 500;
+    transition: 0.3;
+    text
+}
+
+    .botao-imagem:hover {
+        background-color: white;
+        border: 1px solid var(--brand);
+        color: var(--brand);
+    }
 footer {
     background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(/Imagens/woman-in-kitchen-looking-at-the-camera.jpg), #082032;
     ;
