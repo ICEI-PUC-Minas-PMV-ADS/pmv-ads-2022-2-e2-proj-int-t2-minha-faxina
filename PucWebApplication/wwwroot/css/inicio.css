@@ -56,7 +56,6 @@ section {
     background-color: var(--brand);
     color: white;
     font-weight: 500;
-    transition: 0.3;
 }
 
     .botao:hover {
@@ -230,7 +229,6 @@ input[name=Pesquisa] {
     background-color: var(--brand);
     color: white;
     font-weight: 500;
-    transition: 0.3;
 }
 
     #submit:hover {
@@ -252,7 +250,6 @@ input[name=Pesquisa] {
     color: rgb(0, 176, 103);
     font-weight: 500;
     text-decoration: none;
-    transition: 0.3;
 }
 
     .botao-inscrever:hover {
@@ -501,7 +498,6 @@ input[name=Pesquisa] {
     }
 footer {
     background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(/Imagens/woman-in-kitchen-looking-at-the-camera.jpg), #082032;
-    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

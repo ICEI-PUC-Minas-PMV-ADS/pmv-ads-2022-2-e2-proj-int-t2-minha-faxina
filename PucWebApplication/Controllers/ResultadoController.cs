@@ -13,7 +13,7 @@ namespace PucWebApplication.Controllers
         {
             _context = context;
         }
-        public IActionResult Pesquisa(string Pesquisa = "")
+        public IActionResult Pesquisa(Models.Usuario c, string Pesquisa = "")
         {
             var q = _context.Usuario.AsQueryable();
             if (!string.IsNullOrEmpty(Pesquisa))
@@ -25,10 +25,8 @@ namespace PucWebApplication.Controllers
                 return View(q.ToList());
 
             }
-
             return View(_context.Usuario.ToList());
         }
-
     }
 
     // Fim Controlador da Pasta Resultado //
