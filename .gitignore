@@ -606,10 +606,3 @@ FodyWeavers.xsd
 /PucWebApplication/obj/Debug/net6.0/PucWebApplication.dll
 /PucWebApplication/obj/Debug/net6.0/refint/PucWebApplication.dll
 /PucWebApplication/obj/Debug/net6.0/ref/PucWebApplication.dll
-/PucWebApplication/obj/Debug/net6.0/PucWebApplication.csproj.AssemblyReference.cache
-/PucWebApplication/obj/Debug/net6.0/staticwebassets/msbuild.PucWebApplication.Microsoft.AspNetCore.StaticWebAssets.props
-/PucWebApplication/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.PucWebApplication.props
-/PucWebApplication/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.PucWebApplication.props
-/PucWebApplication/bin/Debug/net6.0/PucWebApplication.deps.json
-/PucWebApplication/obj/Debug/net6.0/staticwebassets/msbuild.build.PucWebApplication.props
-/PucWebApplication/bin/Debug/net6.0/PucWebApplication.runtimeconfig.json

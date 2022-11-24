@@ -163,7 +163,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="cpf" class="h-input control-label"></label>
-                <input type="text" asp-for="cpf" class="b-input cpf form-control" id="cpf"  required/>
+            <input type="text" onkeydown="return cpf(v);" onkeypress="return onlynumber();" asp-for="cpf" class="b-input cpf form-control" id="cpf" required />
                 <span asp-validation-for="cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -173,7 +173,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="cep" class="h-input control-label"></label>
-                <input type="text" asp-for="cep" class="b-input cep form-control" required/>
+            <input type="text" onkeypress="return onlynumber();" asp-for="cep" class="b-input cep form-control" required />
                 <span asp-validation-for="cep" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -187,8 +187,8 @@
                 <span asp-validation-for="Numero" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Complemento" class="h-input control-label"></label>
-                <input asp-for="Complemento" class="b-input complemento form-control" />
+                <label asp-for="Complemento" class="h-input control-label">Telefone</label>
+            <input type="text" onkeydown="return mascaraTelefone(event)" onkeypress="return onlynumber();" asp-for="Complemento" class="b-input complemento form-control" />
                 <span asp-validation-for="Complemento" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -229,6 +229,69 @@
     <a asp-controller="validation" asp-action="Index">validation list</a>
 </div>
 <script src="~/js/cadastro-contrat.js"></script>
+<script>
+    function onlynumber(evt) {
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        //var regex = /^[0-9.,]+$/;
+        var regex = /^[0-9.]+$/;
+        if (!regex.test(key)) {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+</script>
+<script>
+    function mascaraTelefone(event) {
+        let tecla = event.key;
+        let telefone = event.target.value.replace(/\D+/g, "");
+
+        if (/^[0-9]$/i.test(tecla)) {
+            telefone = telefone + tecla;
+            let tamanho = telefone.length;
+
+            if (tamanho >= 12) {
+                return false;
+            }
+
+            if (tamanho > 10) {
+                telefone = telefone.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+            } else if (tamanho > 5) {
+                telefone = telefone.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
+            } else if (tamanho > 2) {
+                telefone = telefone.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+            } else {
+                telefone = telefone.replace(/^(\d*)/, "($1");
+            }
+
+            event.target.value = telefone;
+        }
+
+        if (!["Backspace", "Delete"].includes(tecla)) {
+            return false;
+        }
+    }
+</script>
+<script>
+    function cnpj(v) {
+        v = v.replace(/\D/g, "")                           //Remove tudo o que não é dígito
+        v = v.replace(/^(\d{2})(\d)/, "$1.$2")             //Coloca ponto entre o segundo e o terceiro dígitos
+        v = v.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3") //Coloca ponto entre o quinto e o sexto dígitos
+        v = v.replace(/\.(\d{3})(\d)/, ".$1/$2")           //Coloca uma barra entre o oitavo e o nono dígitos
+        v = v.replace(/(\d{4})(\d)/, "$1-$2")              //Coloca um hífen depois do bloco de quatro dígitos
+        return v
+    }
+
+    function cpf(v) {
+        v = v.replace(/\D/g, "")                    //Remove tudo o que não é dígito
+        v = v.replace(/(\d{3})(\d)/, "$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
+        v = v.replace(/(\d{3})(\d)/, "$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
+        //de novo (para o segundo bloco de números)
+        v = v.replace(/(\d{3})(\d{1,2})$/, "$1-$2") //Coloca um hífen entre o terceiro e o quarto dígitos
+        return v
+    }
+</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
