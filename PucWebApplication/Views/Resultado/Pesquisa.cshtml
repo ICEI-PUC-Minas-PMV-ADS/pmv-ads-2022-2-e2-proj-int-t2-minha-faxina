@@ -106,6 +106,8 @@
                     @Html.DisplayNameFor(model => model.Bairro)
 
                     @Html.DisplayNameFor(model => model.Cidade)
+
+                    @Html.DisplayNameFor(model => model.Complemento)
     </div>
     <div class="row">
             @foreach (var item in Model)
@@ -122,8 +124,8 @@
 
                 <li class="list-group-item"> <b>Bairro:</b> @Html.DisplayFor(modelItem => item.Bairro) </li>
             </ul>
-            <div>
-                    <button href="#" class="btn first">Entrar em Contato</button>
+            <div >
+                    <a class="btn first" href="https://wa.me/55"@Html.DisplayFor(modelItem => item.Complemento)""> Entrar em Contato</a>
             </div>
             </div>
             }
