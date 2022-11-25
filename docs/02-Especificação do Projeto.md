@@ -7,8 +7,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 As Personas do projeto foram construídas a partir de entrevistas individuais, suas histórias têm envolvimento tanto direto como indiretamente com o tema proposto para construção desse trabalho. Com as informações coletadas poderemos ter uma diversidade de visões no qual nos permitirá entender melhor cada usuário. Abaixo iremos relatar a história das pessoas entrevistadas.
 
 
-| Leila Rodrigues     | Informações:                       |                                        |
-
+**Leila Rodrigues**
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103081069/188247371-69036cf3-d449-4e79-ba13-0ea2e9710a78.jpeg" width="200px" />
 </div>
