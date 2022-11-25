@@ -40,7 +40,6 @@
 | Passos 	| - Fazer login na plataforma <br> - Entrar na área de perfil<br> - Acessar área de avaliações<br> - Selecionar usuário e avaliar.  |
 |Critério de Êxito | - Usuário avaliado com sucesso. |
 | Resultado do Teste 	| O funcionamento está de acordo com a proposta |
-
 |  	|  	|
 | Caso de Teste 	| CT-08 – Contato por telefone	|
 |Requisito Associado | RF-008	- A aplicação deve possuir um botão para contato das partes. |
