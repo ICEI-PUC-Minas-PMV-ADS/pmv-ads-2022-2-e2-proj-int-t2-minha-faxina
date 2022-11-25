@@ -25,30 +25,29 @@
 | Objetivo do Teste 	| Verificar se o filtro com base na localização funciona corretamente. |
 | Passos 	| - Fazer login com a conta de empregador no site<br> - Clicar no campo de busca e inserir o endereço desejado para a busca. |
 |Critério de Êxito | - Lista de faxineiros(as) encontrados com base na localização. |
-|  	|  	|
-| Caso de Teste 	| CT-05 – Campo de disponibilidade do contratado 	|
-|Requisito Associado | RF-005	- O contratado deve ter uma funcionalidade na qual o mesmo possa demonstrar a região de interesse , e possa escolher a data é hora de atuação.  |
-| Objetivo do Teste 	| Verificar se os faxineiros(as) conseguem adicionar informações adicionais no perfil.|
-| Passos 	| - Fazer login com a conta de contratado no site <br> - Entrar no perfil, e adicionar informações adicionais, tais como, região de interesse , data é hora de atuação  |
-|Critério de Êxito | - Dados adicionais inseridos com sucesso. |
+| Resultado do Teste 	| O funcionamento está de acordo com a proposta |
 |  	|  	|
 | Caso de Teste 	| CT-06 – Empregador seleciona um(a) faxineiro(a)	|
-|Requisito Associado | RF-006	- O empregador deve ter uma funcionalidade na qual o mesmo possa demonstrar interesse em uma faxina é possa mostrar o local data é hora. |
+|Requisito Associado | RF-006	- O empregador deve ter uma funcionalidade na qual o mesmo possa selecionar um faxineiro de sua preferência. |
 | Objetivo do Teste 	| Verificar se o empregador consegue encontrar e selecionar um(a) faxineiro(a). |
-| Passos 	| - Fazer login com a conta de empregador no site<br> - Navegar pela área de busca e selecinar um(a) faxineiro(a) de interesse.  |
+| Passos 	| - Fazer login na aplicação <br> - Navegar pela área de busca e selecinar um(a) faxineiro(a) de interesse.  |
 |Critério de Êxito | - O empregador conseguiu demonstrar interesse. |
+| Resultado do Teste 	| O funcionamento está de acordo com a proposta |
 |  	|  	|
 | Caso de Teste 	| CT-07 – Campo de avaliação	|
-|Requisito Associado | RF-007	- A aplicação deve possuir opção de fazer uma avalição tanto do empregador para o empregado e vice-versa |
-| Objetivo do Teste 	| Verificar se é possivel fazer uma avaliação de ambos. |
-| Passos 	| - Fazer login com uma conta de usuário no site<br> - Entrar na área de perfil<br> - Acessar área de avaliações<br> - Selecionar usuário e avaliar.  |
+|Requisito Associado | RF-007	- A aplicação deve possuir opção de fazer uma avalição do faxineiro |
+| Objetivo do Teste 	| Verificar se é possivel fazer uma avaliação. |
+| Passos 	| - Fazer login na plataforma <br> - Entrar na área de perfil<br> - Acessar área de avaliações<br> - Selecionar usuário e avaliar.  |
 |Critério de Êxito | - Usuário avaliado com sucesso. |
+| Resultado do Teste 	| O funcionamento está de acordo com a proposta |
+
 |  	|  	|
-| Caso de Teste 	| CT-08 – Chat para contato	|
-|Requisito Associado | RF-008	- A aplicação deve possuir um chat para contato das partes. |
-| Objetivo do Teste 	| Verificar se os usuários conseguem conversar pelo chat . |
+| Caso de Teste 	| CT-08 – Contato por telefone	|
+|Requisito Associado | RF-008	- A aplicação deve possuir um botão para contato das partes. |
+| Objetivo do Teste 	| Verificar se os usuários conseguem ser redirecionados para o whats app do faxineiro . |
 | Passos 	| - Fazer login com uma conta de usuário no site <br> - Encontrar usuário de interesse <br> - Clicar no botão "entrar em contato".  |
-|Critério de Êxito | - O chat foi iniciado e funciona. |
+|Critério de Êxito | - O usuario foi redirecionado com sucesso para o whtas app. |
+| Resultado do Teste 	| O funcionamento está de acordo com a proposta |
 |  	|  	|
 | Caso de Teste 	| CT-09 – Informações relevantes sobre os serviços oferecidos	|
 |Requisito Associado | RF-009	- Deverá ter na página inícial informações relevantes sobre os serviços oferecidos pela aplicação através de imagens e textos curtos. |
