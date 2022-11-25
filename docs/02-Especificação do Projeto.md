@@ -8,10 +8,10 @@ As Personas do projeto foram construídas a partir de entrevistas individuais, s
 
 
 | Leila Rodrigues     | Informações:                       |                                        |
-|--------------------|------------------------------------|----------------------------------------|
-|<div align="left">
+
+<div align="left">
 <img src="https://user-images.githubusercontent.com/103081069/188247371-69036cf3-d449-4e79-ba13-0ea2e9710a78.jpeg" width="200px" />
-</div>|
+</div>
 
 | Idade    | Ocupação  | Participação    | Divulgação de faxinas | Dificuldades | História |  
 |:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
