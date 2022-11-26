@@ -120,5 +120,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Diagrama de Casos de Uso
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/main/docs/img/Caso%20de%20Uso%402x.png" width="850px" />
+<img src="https://user-images.githubusercontent.com/103081069/204112398-4b70155f-5a2e-4a6c-b9df-cbce5ffe6652.jpeg" width="850px" />
 </div>
