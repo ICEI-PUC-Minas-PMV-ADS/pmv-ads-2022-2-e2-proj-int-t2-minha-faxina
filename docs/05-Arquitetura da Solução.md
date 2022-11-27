@@ -27,9 +27,27 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Linguagens de programação utilizadas para o desenvolvimento da aplicação:
+
+>- Javascript: Utilizado no frontend.
+>- C#: Utilizada para desenvolvimento do backend.
+
+Frameworks:
+
+>- ASP.NET Core MVC: Framework implementando o padrão Model-View-Controller.
+
+IDE: Visual Studio Community 2022, escolhido pela integração com o Framework ASP.NET e outras ferramentas utilizadas no projeto como o SQL Server.
+
+Outras tecnologias:
+
+>- HTML
+>- CSS
+
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
+## Imagem da tecnologia utilizada no desenvolvimento da solucção.
+
 
 ## Hospedagem
 
