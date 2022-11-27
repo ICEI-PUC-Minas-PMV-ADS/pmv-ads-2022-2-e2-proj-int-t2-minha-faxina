@@ -161,12 +161,14 @@
                     @Html.DisplayNameFor(model => model.Bairro)
 
                     @Html.DisplayNameFor(model => model.Cidade)
+
+                    @Html.DisplayNameFor(model => model.Complemento)
     </div>
     <div class="row">
             @foreach (var item in Model)
             {
                 <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/team_1.jpg" style="width:263px; margin-top:10px;" alt="Imagem de capa do card">
+                <img src="@Url.Content("~/UploadedImages/" + item.EmpFileName)" class="card-img-top" style="width:263px; height: 263px; margin-top:10px;" height="120px" width="120px" />
                     <div class="card-body">
                 <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Nome)</h5>
                     </div>
@@ -177,13 +179,14 @@
 
                 <li class="list-group-item"> <b>Bairro:</b> @Html.DisplayFor(modelItem => item.Bairro) </li>
             </ul>
-            <div>
-                    <button href="#" class="btn first">Entrar em Contato</button>
+            <div >
+                    <a class="btn first" href="https://wa.me/ '@Html.DisplayFor(modelItem => item.Complemento)'"> Entrar em Contato</a>
             </div>
             </div>
             }
             
     </div>
+<<<<<<< HEAD
     <footer>
         <div class="footer-top text-center">
             <div class="container">
@@ -228,3 +231,7 @@
 </body>
 
 </html>
+=======
+</body>
+</HTML>
+>>>>>>> b769bd3a2f6c30b1a6694ebd4cf5cc395622169f

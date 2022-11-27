@@ -163,7 +163,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="cpf" class="h-input control-label"></label>
-                <input type="text" asp-for="cpf" class="b-input cpf form-control" id="cpf"  required/>
+            <input type="text" onkeydown="return cpf(v);" onkeypress="return onlynumber();" asp-for="cpf" class="b-input cpf form-control" id="cpf" required />
                 <span asp-validation-for="cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -173,7 +173,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="cep" class="h-input control-label"></label>
-                <input type="text" asp-for="cep" class="b-input cep form-control" required/>
+            <input type="text" onkeypress="return onlynumber();" asp-for="cep" class="b-input cep form-control" required />
                 <span asp-validation-for="cep" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -187,8 +187,8 @@
                 <span asp-validation-for="Numero" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Complemento" class="h-input control-label"></label>
-                <input asp-for="Complemento" class="b-input complemento form-control" />
+                <label asp-for="Complemento" class="h-input control-label">Telefone</label>
+            <input type="text"  onkeypress="return onlynumber();" asp-for="Complemento" class="b-input complemento form-control" />
                 <span asp-validation-for="Complemento" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -215,6 +215,10 @@
                 <label asp-for="Perfil" class="control-label"></label>
                 <select asp-for="Perfil" class="form-control perfil" asp-items="Html.GetEnumSelectList<Perfil>()" required></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <label asp-for="ImageFile" class="h-input control-label"></label>
+                <input type="file" asp-for="ImageFile" class="b-input form-control" />
             </div>
 
             <div class="form-group submit" style="margin-top: 20px;">
@@ -229,6 +233,21 @@
     <a asp-controller="validation" asp-action="Index">validation list</a>
 </div>
 <script src="~/js/cadastro-contrat.js"></script>
+<script>
+    function onlynumber(evt) {
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        //var regex = /^[0-9.,]+$/;
+        var regex = /^[0-9.]+$/;
+        if (!regex.test(key)) {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+</script>
+
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

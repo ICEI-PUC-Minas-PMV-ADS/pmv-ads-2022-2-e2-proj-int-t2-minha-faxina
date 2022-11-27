@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PucWebApplication.Models {
@@ -55,6 +56,16 @@ namespace PucWebApplication.Models {
         public string? Senha { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o Perfil")]
         public Perfil Perfil { get; set; }
+
+        public int tel { get; set; }
+
+        public string EmpPhotoPath { get; set; }
+
+        public string EmpFileName { get; set; }
+
+        [NotMapped]
+        [DisplayName("Upload file")]
+        public IFormFile ImageFile { get; set; }
     }
 
     public enum Perfil {

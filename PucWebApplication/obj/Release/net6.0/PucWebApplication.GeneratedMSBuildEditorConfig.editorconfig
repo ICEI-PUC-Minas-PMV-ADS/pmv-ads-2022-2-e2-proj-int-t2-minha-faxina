@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\guilh\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-2-e2-proj-int-t2-minha-faxina\PucWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Home/EmployeeListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZUxpc3RpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Home/EmployeeProfileUpload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZVByb2ZpbGVVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,24 +92,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Validation/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxDcmVhdGUuY3NodG1s
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/UsuarioUploadImg/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1VwbG9hZEltZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Validation/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxEZWxldGUuY3NodG1s
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/UsuarioUploadImg/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1VwbG9hZEltZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Validation/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/UsuarioUploadImg/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1VwbG9hZEltZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Validation/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxFZGl0LmNzaHRtbA==
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/UsuarioUploadImg/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1VwbG9hZEltZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/Validation/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvblxJbmRleC5jc2h0bWw=
+[C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/UsuarioUploadImg/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1VwbG9hZEltZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/guilh/Source/Repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-minha-faxina/PucWebApplication/Views/_ViewImports.cshtml]
