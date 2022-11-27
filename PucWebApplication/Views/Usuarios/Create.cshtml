@@ -188,7 +188,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Complemento" class="h-input control-label">Telefone</label>
-            <input type="text" onkeydown="return mascaraTelefone(event)" onkeypress="return onlynumber();" asp-for="Complemento" class="b-input complemento form-control" />
+            <input type="text"  onkeypress="return onlynumber();" asp-for="Complemento" class="b-input complemento form-control" />
                 <span asp-validation-for="Complemento" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -215,6 +215,10 @@
                 <label asp-for="Perfil" class="control-label"></label>
                 <select asp-for="Perfil" class="form-control perfil" asp-items="Html.GetEnumSelectList<Perfil>()" required></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <label asp-for="ImageFile" class="h-input control-label"></label>
+                <input type="file" asp-for="ImageFile" class="b-input form-control" />
             </div>
 
             <div class="form-group submit" style="margin-top: 20px;">
@@ -242,56 +246,8 @@
         }
     }
 </script>
-<script>
-    function mascaraTelefone(event) {
-        let tecla = event.key;
-        let telefone = event.target.value.replace(/\D+/g, "");
 
-        if (/^[0-9]$/i.test(tecla)) {
-            telefone = telefone + tecla;
-            let tamanho = telefone.length;
 
-            if (tamanho >= 12) {
-                return false;
-            }
-
-            if (tamanho > 10) {
-                telefone = telefone.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
-            } else if (tamanho > 5) {
-                telefone = telefone.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
-            } else if (tamanho > 2) {
-                telefone = telefone.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
-            } else {
-                telefone = telefone.replace(/^(\d*)/, "($1");
-            }
-
-            event.target.value = telefone;
-        }
-
-        if (!["Backspace", "Delete"].includes(tecla)) {
-            return false;
-        }
-    }
-</script>
-<script>
-    function cnpj(v) {
-        v = v.replace(/\D/g, "")                           //Remove tudo o que não é dígito
-        v = v.replace(/^(\d{2})(\d)/, "$1.$2")             //Coloca ponto entre o segundo e o terceiro dígitos
-        v = v.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3") //Coloca ponto entre o quinto e o sexto dígitos
-        v = v.replace(/\.(\d{3})(\d)/, ".$1/$2")           //Coloca uma barra entre o oitavo e o nono dígitos
-        v = v.replace(/(\d{4})(\d)/, "$1-$2")              //Coloca um hífen depois do bloco de quatro dígitos
-        return v
-    }
-
-    function cpf(v) {
-        v = v.replace(/\D/g, "")                    //Remove tudo o que não é dígito
-        v = v.replace(/(\d{3})(\d)/, "$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
-        v = v.replace(/(\d{3})(\d)/, "$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
-        //de novo (para o segundo bloco de números)
-        v = v.replace(/(\d{3})(\d{1,2})$/, "$1-$2") //Coloca um hífen entre o terceiro e o quarto dígitos
-        return v
-    }
-</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

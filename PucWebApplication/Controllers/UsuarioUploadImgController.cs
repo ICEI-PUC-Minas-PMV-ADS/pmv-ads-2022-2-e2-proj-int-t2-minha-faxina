@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,19 +15,80 @@ namespace PucWebApplication.Controllers
     public class UsuarioUploadImgController : Controller
     {
         private readonly Contexto _context;
+        private string caminhoServidor;
 
-        public UsuarioUploadImgController(Contexto context)
-        {
+
+        public UsuarioUploadImgController(Contexto context, IWebHostEnvironment sistema) {
             _context = context;
+            caminhoServidor = sistema.WebRootPath;
         }
 
-        // GET: UsuarioUploadImg
-        public async Task<IActionResult> Index()
-        {
-              return View(await _context.Usuario.ToListAsync());
+        public IActionResult login() {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> login([Bind("Id,Email,Senha")] Usuario usuario) {
+            var user = await _context.Usuario
+                .FirstOrDefaultAsync(m => m.Email == usuario.Email);
+
+            if (user == null) {
+                ViewBag.Message = "Usuário e/ou Senha inválidos!";
+                return View();
+            }
+
+            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, user.Senha);
+
+            if (isSenhaOk) {
+
+                var claims = new List<Claim> {
+                    new Claim(ClaimTypes.Name, user.Nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
+                };
+
+                var userIdentity = new ClaimsIdentity(claims, "Login");
+
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                var props = new AuthenticationProperties {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+
+                return Redirect("/Home");
+            }
+
+            ViewBag.Message = "Usuário e/ou Senha inválidos!";
+            return View();
         }
 
-        // GET: UsuarioUploadImg/Details/5
+        public async Task<IActionResult> Logout() {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("index", "Home");
+        }
+
+        public IActionResult AccessDenied() {
+            return View();
+        }
+
+        public IActionResult Index(string Pesquisa = "") {
+            var q = _context.Usuario.AsQueryable();
+            if (!string.IsNullOrEmpty(Pesquisa)) {
+                q = q.Where(c => c.Bairro.Contains(Pesquisa));
+                q = q.OrderBy(c => c.Nome);
+
+
+                return View(q.ToList());
+
+            }
+
+            return View(_context.Usuario.ToList());
+        }
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Usuario == null)
@@ -58,6 +121,7 @@ namespace PucWebApplication.Controllers
         {
             if (ModelState.IsValid)
             {
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -73,20 +137,14 @@ namespace PucWebApplication.Controllers
             return View();
         }
 
-        private dynamic RetornaDados() {
-            throw new NotImplementedException();
-        }
-
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.Usuario == null)
-            {
+        public async Task<IActionResult> Edit(string? id) {
+            if (id == null || _context.Usuario == null) {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuario.FindAsync(id);
-            if (usuario == null)
-            {
+            var usuario = await _context.Usuario
+                .FirstOrDefaultAsync(m => m.Nome == id);
+            if (usuario == null) {
                 return NotFound();
             }
             return View(usuario);
@@ -108,6 +166,7 @@ namespace PucWebApplication.Controllers
             {
                 try
                 {
+                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
