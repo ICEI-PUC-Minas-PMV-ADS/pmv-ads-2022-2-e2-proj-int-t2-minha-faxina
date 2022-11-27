@@ -115,8 +115,6 @@
         </div>
     </nav>
 
-
-
     <!-- Modal Login -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -126,9 +124,11 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <p>teste 1</p>
                     <form asp-controller="Usuarios" asp-action="login" class="login">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="form-group">
+                                                <p>teste 2</p>
                             <label asp-for="Email" class="control-label h-input"></label>
                             <input asp-for="Email" class="form-control  b-input" />
                             <span asp-validation-for="Email" class="text-danger"></span>
@@ -148,6 +148,7 @@
 
                     <div class="inscreva-se">
                         <p>Ainda não é cadastrado? </p>
+                                            <p>teste 1</p>
                         <a class="botao-inscrever" asp-controller="Usuarios" asp-action="create"
                             style="text-decoration: none; color: rgb(0, 176, 103);"> Inscreva-se</a>
                     </div>

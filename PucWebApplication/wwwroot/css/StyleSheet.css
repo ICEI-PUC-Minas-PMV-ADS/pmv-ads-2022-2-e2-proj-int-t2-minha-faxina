@@ -198,11 +198,61 @@ input[name=Pesquisa] {
         opacity: 0.5;
     }
 
+/* Title das Páginas Secundárias */
+
 .title {
-    font-size: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    color: var(--brand);
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: var(--brand);
+    padding-left: 2%;
+}
+/* input form */
+.form-control {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.edit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#salvar {
+    font-size: 25px;
+    margin: auto;
+    width: 350px;
+}
+
+.form-group {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: var(--brand);
+}
+
+.h-input {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    width: 360px;
+    padding-left: 5px;
+    margin: 5px 0px;
+    border-left: 4px solid var(--brand);
+    border-bottom: 2px solid var(--brand);
 }
 
 p2 {
@@ -227,10 +277,6 @@ p3 {
     margin: auto;
 }
 
-.h-input {
-    font-size: 15px;
-}
-
 .cad {
     display: flex;
     flex-wrap: wrap;
@@ -245,50 +291,9 @@ p3 {
 }
 
 .nome,
-.email {
+.email, .cpf, .cep, .complemento, .bairro, .cidade, .rua,
+.senha, .confirm-senha, .idade, .numero, .perfil{
     max-width: 360px;
-    min-width: 220px;
-}
-
-.cpf {
-    max-width: 300px;
-    min-width: 220px;
-}
-
-.cep {
-    max-width: 250px;
-    min-width: 220px;
-}
-
-.complemento {
-    max-width: 200px;
-    min-width: 220px;
-}
-
-.bairro {
-    max-width: 360px;
-    min-width: 220px;
-}
-
-.cidade {
-    max-width: 360px;
-    min-width: 220px;
-}
-
-.rua {
-    max-width: 350px;
-    min-width: 220px;
-}
-
-.senha,
-.confirm-senha {
-    max-width: 360px;
-    min-width: 220px;
-}
-
-.idade,
-.numero {
-    max-width: 140px;
     min-width: 220px;
 }
 
