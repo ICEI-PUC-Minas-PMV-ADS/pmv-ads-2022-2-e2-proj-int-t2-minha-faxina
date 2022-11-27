@@ -1,6 +1,6 @@
 # Template Padrão da Aplicação
 
-A aplicação segue o modelo criado nem <a href="5-Projeto de Interface.md"> Projeto de Interface</a>
+A aplicação segue o modelo criado em <a href="5-Projeto de Interface.md"> Projeto de Interface</a>. A tela inicial e realizada 
 
 
 
