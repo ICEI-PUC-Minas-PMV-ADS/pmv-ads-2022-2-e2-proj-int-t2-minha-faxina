@@ -1,0 +1,73 @@
+﻿:root {
+    --brand: rgb(0, 176, 103);
+    --dark: #092032;
+    --body: #516171;
+    --border: rgba(0, 0, 0, 0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+#back-button {
+    margin-right: 10%;
+    background-color: white;
+    border: solid 2px;
+    border-color: rgb(0, 176, 103);
+    border-radius: 3px;
+    color: rgb(0, 176, 103);
+    transition: 0.3s;
+}
+
+.title {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: var(--brand);
+}
+
+p2 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+p3 {
+    font-size: 15px;
+    font-style: italic;
+    display: block;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.formulario {
+    
+    align-content: center;
+}
+
+.cad {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+    .cad > div {
+        padding: 0% 2% 0% 2%;
+    }
+
+.form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botao {
+    background-color: var(--brand);
+    border: none;
+}
+
+    .botao:hover {
+        background-color: var(--brand);
+    }

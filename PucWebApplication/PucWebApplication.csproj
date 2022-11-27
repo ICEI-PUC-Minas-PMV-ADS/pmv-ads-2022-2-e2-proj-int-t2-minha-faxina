@@ -16,7 +16,6 @@
   <ItemGroup>
     <Compile Remove="Controllers\HomeController1.cs" />
     <Compile Remove="Views\Usuarios\MeuPerfil.cshtml.cs" />
-    <Compile Remove="Views\Validation\Class.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +44,10 @@
     <PackageReference Include="PagedList.Mvc" Version="4.5.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
     <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\UploadedImages\" />
   </ItemGroup>
 
 </Project>

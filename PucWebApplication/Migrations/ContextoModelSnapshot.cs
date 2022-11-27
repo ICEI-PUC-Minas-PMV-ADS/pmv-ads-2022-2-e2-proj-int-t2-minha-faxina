@@ -26,31 +26,34 @@ namespace PucWebApplication.Migrations
                         .HasColumnName("Id");
 
                     b.Property<string>("Bairro")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Bairro");
 
                     b.Property<string>("Cidade")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Cidade");
 
                     b.Property<string>("Complemento")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Complemento");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Email");
+
+                    b.Property<string>("EmpFileName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("EmpPhotoPath")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<int>("Idade")
                         .HasColumnType("int")
                         .HasColumnName("Idade");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Nome");
 
@@ -62,12 +65,10 @@ namespace PucWebApplication.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Rua")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Rua");
 
                     b.Property<string>("Senha")
-                        .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("Senha");
 
@@ -78,6 +79,9 @@ namespace PucWebApplication.Migrations
                     b.Property<int>("cpf")
                         .HasColumnType("int")
                         .HasColumnName("CPF");
+
+                    b.Property<int>("tel")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

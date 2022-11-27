@@ -113,7 +113,7 @@
             @foreach (var item in Model)
             {
                 <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/team_1.jpg" style="width:263px; margin-top:10px;" alt="Imagem de capa do card">
+                <img src="@Url.Content("~/UploadedImages/" + item.EmpFileName)" class="card-img-top" style="width:263px; height: 263px; margin-top:10px;" height="120px" width="120px" />
                     <div class="card-body">
                 <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Nome)</h5>
                     </div>
@@ -125,7 +125,7 @@
                 <li class="list-group-item"> <b>Bairro:</b> @Html.DisplayFor(modelItem => item.Bairro) </li>
             </ul>
             <div >
-                    <a class="btn first" href="https://wa.me/55"@Html.DisplayFor(modelItem => item.Complemento)""> Entrar em Contato</a>
+                    <a class="btn first" href="https://wa.me/ '@Html.DisplayFor(modelItem => item.Complemento)'"> Entrar em Contato</a>
             </div>
             </div>
             }
@@ -133,64 +133,3 @@
     </div>
 </body>
 </HTML>
-
-@*<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Título do card</h5>
-    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Link do card</a>
-    <a href="#" class="card-link">Outro link</a>
-  </div>
-</div>*@
-
-@*<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Idade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bairro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cidade)
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Idade)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Bairro)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Cidade)
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>*@
