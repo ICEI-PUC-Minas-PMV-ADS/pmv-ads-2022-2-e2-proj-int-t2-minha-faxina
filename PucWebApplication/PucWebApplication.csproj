@@ -25,12 +25,6 @@
     <Content Remove="Views\Usuarios\Perfil.cshtml" />
     <Content Remove="Views\Usuarios\View.cshtml" />
     <Content Remove="wwwroot\css\site.css" />
-    <Content Remove="wwwroot\ImagensUsuarioUpload\18edb694-7996-4866-9e82-9399440c9e2b__________black-businessman-using-computer-laptop.jpg" />
-    <Content Remove="wwwroot\ImagensUsuarioUpload\47dd8518-689e-450b-979f-5b08ca1f2aa4__________close-up-man-hand-typing-keyboard-workplace.jpg" />
-    <Content Remove="wwwroot\ImagensUsuarioUpload\abbc498f-dfb7-4ef8-b13e-2a685d91feca__________workspace-with-office-supplies-top-view.jpg" />
-    <Content Remove="wwwroot\ImagensUsuarioUpload\af9ebbe7-21e9-4822-a916-01c23cba9de7__________image.jpeg" />
-    <Content Remove="wwwroot\ImagensUsuarioUpload\b0534c04-b039-4e7e-a277-5a4548b00536__________black-businessman-using-computer-laptop.jpg" />
-    <Content Remove="wwwroot\ImagensUsuarioUpload\d906a583-81c3-430b-b593-cf4875b9513e__________close-up-man-hand-typing-keyboard-workplace.jpg" />
     <Content Remove="wwwroot\js\JavaScript.js" />
   </ItemGroup>
 
@@ -53,7 +47,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\ImagensUsuarioUpload\" />
+    <Folder Include="wwwroot\UploadedImages\" />
   </ItemGroup>
 
 </Project>
