@@ -1,17 +1,3 @@
 # Template Padrão da Aplicação
 
-A aplicação segue o modelo criado em <a href="5-Projeto de Interface.md"> Projeto de Interface</a>. A tela inicial e realizada 
-
-
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
-
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
-
+A aplicação segue o modelo criado em <a href="5-Projeto de Interface.md"> Projeto de Interface</a> más com algumas mudanças. A tela inicial é representada com algumas informações sobre a página, para entrar em contato com as faxineiras é necessário fazer o login caso não tenha basta efetuar o cadastro. Após o login você será capaz de buscar através da lupa o bairro de faxineiras mais próximas de você e você mesmo será capaz de entrar em contato e alinhar o serviço.
