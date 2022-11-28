@@ -21,9 +21,6 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-- ?.html
-- ?.css
-
 
 
 ## Tela Login/Cadastro
@@ -45,7 +42,6 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-?
 
 
 ## Avaliação 
@@ -67,7 +63,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-?
+
 
 ## Busca por Bairro
 
@@ -87,7 +83,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-?
+
 
 
 
@@ -110,7 +106,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-?
+
 
 
 
