@@ -1,4 +1,4 @@
-﻿@model PucWebApplication.Models.Usuario
+﻿@model PucWebApplication.Models.Usuario 
 
 @{
     ViewData["Title"] = "Edit";
@@ -86,7 +86,6 @@
                             <ul class="dropdown-menu">
                                 <li><a asp-controller="Usuarios" asp-action="Edit" asp-route-id="@User.Identity.Name"
                                     class="dropdown-item first-item">Meu Perfil</a></li>
-                                <hr>
                                 <li><a asp-controller="Usuarios" asp-action="Logout"
                                     class="dropdown-item last-item">Sair</a></li>
                             </ul>
@@ -125,11 +124,11 @@
                 <input type="file" name="foto" class="fotoperfil edit" />
                 <button type="submit" class="botao-imagem form-group edit">Enviar Imagem</button>
             </form>
-                <form action="~/Usuarios/Upload"  method="post" enctype="multipart/form-data" >
-<label> Escolha sua imagem de perfil</label>
-<input type="file" name="foto" />
-<button type="submit" class="btn btn-danger">Enviar Imagem</button>
-</form>
+            <form action="~/Usuarios/Upload"  method="post" enctype="multipart/form-data" >
+                    <label> Escolha sua imagem de perfil</label>
+                    <input type="file" name="foto" />
+                    <button type="submit" class="btn btn-danger">Enviar Imagem</button>
+            </form>
             <form class="edit" asp-action="Edit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="Id" />
@@ -188,7 +187,8 @@
                 </div>
             </form>
         </div>
-=======
+    </div>
+
 <h4 class="title">MEU PERFIL</h4>
 <hr />
 <div class="row">
@@ -281,7 +281,7 @@
     <div>
         <a asp-action="Index">Back to List</a>
     </div>
-
+</div>
 <<<<<<< HEAD
     @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
