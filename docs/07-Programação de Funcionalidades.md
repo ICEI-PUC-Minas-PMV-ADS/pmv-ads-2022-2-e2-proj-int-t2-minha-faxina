@@ -4,7 +4,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 
 
-Tela inicial
+## Tela inicial
 
 <div style="text-align:center">                            
 </div>
@@ -13,17 +13,22 @@ Tela inicial
 <img src="https://user-images.githubusercontent.com/103081069/204169090-7bb429ab-0e39-450e-8f2f-13185fcf24e7.jpeg" width="500px" />
 </div>
 
+
 Requisitos atendidos
 
-RF-001
-RF-008
+>- RF-001
+>- RF-008
 
 Artefatos da funcionalidade
 
-?
+- ?.html
+- ?.css
 
 
-Tela Login/Cadastro
+
+## Tela Login/Cadastro
+
+Ambiente no qual o mesmo se já for cadastrado no sistema poderá efetuar o login direto, caso não seja o mesmo clicar em inscreva-se, onde será redirecionado para tela de cadastro. 
 
 <div style="text-align:center">                            
 </div>
@@ -35,7 +40,7 @@ Tela Login/Cadastro
 
 Requisitos atendidos
 
-RF-002
+>- RF-002
 
 
 Artefatos da funcionalidade
@@ -43,7 +48,9 @@ Artefatos da funcionalidade
 ?
 
 
-Avaliação 
+## Avaliação 
+
+Área na qual mostra alguns perfis de faxineiras, recomendações de empregadores que contrataram através do site e também dúvidas frequentes.
 
 <div style="text-align:center">                            
 </div>
@@ -54,15 +61,17 @@ Avaliação
 
 Requisitos atendidos
 
-RF-007
-RF-009
+>- RF-007
+>- RF-009
 
 
-Atefatos da funcionalidade
+Artefatos da funcionalidade
 
 ?
 
-Busca por Bairro
+## Busca por Bairro
+
+Neste ambiente o usuário poderá buscar através de bairro as faxineiras mais próximas de sua residência.
 
 <div style="text-align:center">                            
 </div>
@@ -74,15 +83,18 @@ Busca por Bairro
 
 Requisitos atendidos
 
-RF-003
+>- RF-003
 
-Atefatos da funcionalidade
+Artefatos da funcionalidade
 
 ?
 
 
 
-Entrar em contato com as faxineiras
+## Entrar em contato com as faxineiras
+
+O usuário será redirecionado para o whatsapp para entrar em contato com as faxineiras.
+ 
 
 <div style="text-align:center">                            
 </div>
@@ -94,9 +106,9 @@ Entrar em contato com as faxineiras
 
 Requisitos atendidos
 
-RF-007
+>- RF-007
 
-Atefatos da funcionalidade
+Artefatos da funcionalidade
 
 ?
 
