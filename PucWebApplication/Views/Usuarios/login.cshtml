@@ -25,7 +25,7 @@ ViewData["Title"] = "login";
 <p2 class="title"><a asp-controller="Home" asp-action="Index"><svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="currentColor" id="back-button" class="bi bi-chevron-left" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" /> </svg></a>Login</p2>
 
-<div class="cad" class="formulario pb-3">
+<div class="cad formulario pb-3">
     <div class="col-md-4">
         <form asp-action="login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -40,7 +40,7 @@ ViewData["Title"] = "login";
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <div class="form-group form">
-                <input type="submit" value="Entrar" class="botao btn" />
+                <input type="submit" value="Entrar" class="botao btn btn-primary" />
             </div>
         </form>
         <h3>
