@@ -21,6 +21,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
+>- views> home> index.cshtml
 
 
 ## Tela Login/Cadastro
@@ -42,7 +43,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-
+>- views> home> index.cshtml
 
 ## Avaliação 
 
@@ -63,7 +64,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-
+>- views> home> index.cshtml
 
 ## Busca por Bairro
 
@@ -83,7 +84,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-
+>- views> home> index.cshtml
 
 
 
@@ -106,7 +107,7 @@ Requisitos atendidos
 
 Artefatos da funcionalidade
 
-
+>- views> home> index.cshtml
 
 
 
