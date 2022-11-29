@@ -216,7 +216,7 @@
                 <select asp-for="Perfil" class="form-control perfil" asp-items="Html.GetEnumSelectList<Perfil>()" required></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>            
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="ImageFile" class="h-input control-label"></label>
                 <input type="file" asp-for="ImageFile" class="b-input form-control" />
             </div>

@@ -59,13 +59,13 @@ namespace PucWebApplication.Models {
 
         public int tel { get; set; }
 
-        public string EmpPhotoPath { get; set; }
+        public string? EmpPhotoPath { get; set; }
 
-        public string EmpFileName { get; set; }
+        public string? EmpFileName { get; set; }
 
         [NotMapped]
         [DisplayName("Upload file")]
-        public IFormFile ImageFile { get; set; }
+        public IFormFile? ImageFile { get; set; }
     }
 
     public enum Perfil {
