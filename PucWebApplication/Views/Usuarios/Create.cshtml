@@ -163,7 +163,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="cpf" class="h-input control-label"></label>
-            <input type="text" onkeydown="return cpf(v);" onkeypress="return onlynumber();" asp-for="cpf" class="b-input cpf form-control" id="cpf" required />
+            <input type="text"  onkeypress="return onlynumber();" asp-for="cpf" maxlength="11" class="b-input cpf form-control" id="cpf" required />
                 <span asp-validation-for="cpf" class="text-danger"></span>
             </div>
             <div class="form-group">

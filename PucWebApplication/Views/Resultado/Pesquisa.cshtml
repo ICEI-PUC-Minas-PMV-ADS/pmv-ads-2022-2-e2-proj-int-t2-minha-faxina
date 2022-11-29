@@ -125,7 +125,7 @@
                 <li class="list-group-item"> <b>Bairro:</b> @Html.DisplayFor(modelItem => item.Bairro) </li>
             </ul>
             <div >
-                    <a class="btn first" href="https://wa.me/ '@Html.DisplayFor(modelItem => item.Complemento)'"> Entrar em Contato</a>
+                    <a class="btn first" href="@Url.Content("https://wa.me/" + "55" + item.Complemento)"> Entrar em Contato</a>
             </div>
             </div>
             }
