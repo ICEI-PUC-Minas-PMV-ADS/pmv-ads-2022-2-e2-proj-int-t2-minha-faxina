@@ -606,3 +606,6 @@ FodyWeavers.xsd
 /PucWebApplication/obj/Debug/net6.0/PucWebApplication.dll
 /PucWebApplication/obj/Debug/net6.0/refint/PucWebApplication.dll
 /PucWebApplication/obj/Debug/net6.0/ref/PucWebApplication.dll
+/PucWebApplication/PucWebApplication.csproj
+/.gitignore
+/.gitignore
