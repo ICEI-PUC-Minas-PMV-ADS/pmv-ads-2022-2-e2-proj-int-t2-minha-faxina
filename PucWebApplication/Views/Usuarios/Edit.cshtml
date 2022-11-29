@@ -161,7 +161,7 @@
             <div class="form-group">
                 <label asp-for="Complemento" class="control-label"></label>
                 <input asp-for="Complemento" class="form-control" />
-                <span asp-validation-for="Complemento" class="text-danger"></span>
+                <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Bairro" class="control-label"></label>
@@ -184,11 +184,6 @@
                 <select asp-for="Perfil" class="form-control perfil" asp-items="Html.GetEnumSelectList<Perfil>()" required></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="tel" class="control-label"></label>
-                <input asp-for="tel" class="form-control" />
-                <span asp-validation-for="tel" class="text-danger"></span>
-            </div>
             @*<div class="form-group">
                 <label asp-for="EmpFileName" class="control-label"></label>                           
                 <span asp-validation-for="EmpFileName" class="text-danger"></span>
@@ -208,11 +203,6 @@
 @section Scripts {
 @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
-
-<script>
-
-</script>
-
 </body>
 
 </html>
