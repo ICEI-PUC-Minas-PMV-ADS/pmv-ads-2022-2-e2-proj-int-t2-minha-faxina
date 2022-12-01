@@ -6,7 +6,12 @@
 
 `2º Semestre`
 
+Buscando facilitar a forma como se faz busca de vagas de emprego, mais especificamente faxineiras autônomas, a aplicação garante a facilidade para esses profissionais desde o momento do cadastro, até concretizar a contratação. A aplicação busca satisfazer tanto o contratante quanto o contratado através de dados que facilitam e adiantam boa parte da negociação com registros de dados, avaliações, habilidades, entre outros.
+Objetivos
 O objetivo geral deste trabalho é a criação de uma aplicação que apresente ferramentas de fácil uso e que permita o acesso a um universo de pessoas que buscam/prestam esse tipo de serviço.
+Como objetivos específicos, podemos ressaltar:
+
+
 
 ## Integrantes
 
@@ -24,13 +29,9 @@ O objetivo geral deste trabalho é a criação de uma aplicação que apresente 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar o projeto publicado online na plataforma MySitePanel.net, o usuário podera clicar no seguinte link: [](http://rafaelsouza54-001-site1.atempurl.com/)
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 # Documentação
 
