@@ -29,7 +29,7 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Instruções de utilização
 
-Para acessar o projeto publicado online na plataforma MySitePanel.net, o usuário podera clicar no seguinte link: [](http://rafaelsouza54-001-site1.atempurl.com/)
+Para acessar o projeto publicado online na plataforma MySitePanel.net, o usuário podera clicar no seguinte link: [atempurl](http://rafaelsouza54-001-site1.atempurl.com/)
 
 
 
