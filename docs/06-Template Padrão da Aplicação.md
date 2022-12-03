@@ -1,21 +1,20 @@
 # Template Padrão da Aplicação
 
-A aplicação segue o modelo criado em <a href="5-Projeto de Interface.md"> Projeto de Interface</a> más com algumas mudanças. A tela inicial é representada com algumas informações sobre a página, para entrar em contato com as faxineiras é necessário fazer o login caso não tenha basta efetuar o cadastro. Após o login você será capaz de buscar através da lupa o bairro de faxineiras mais próximas de você e você mesmo será capaz de entrar em contato e alinhar o serviço.
+A aplicação segue o modelo criado em <a href="5-Projeto de Interface.md"> Projeto de Interface</a> más com algumas mudanças. A tela inicial é representada com algumas informações sobre a página, para entrar em contato com as faxineiras é necessário fazer o login caso não tenha basta efetuar o cadastro. Após o login você será capaz de buscar através da lupa o bairro de faxineiras mais próximas de você e você mesmo será capaz de entrar em contato e alinhar o serviço. A responsividade segue o padrão do Bootstrap.
 
-A responsividade segue o padrão do Bootstrap
+**TELA INICIAL**
 
-**Tela inicial**
-
-Tela princial do sistema, com informações importantes, anúncios e mais!
+Tela principal da aplicação.
 
 <div style="text-align:center">                            
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/204169090-7bb429ab-0e39-450e-8f2f-13185fcf24e7.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103081069/205447487-f569eccf-1cae-446b-b472-c5f4e4fbc1da.png" width="500px" />
+ <img src="https://user-images.githubusercontent.com/103081069/205448108-4d8e395a-c9e6-428a-82b8-5b929f170707.png" width="500px" />
 </div>
 
-**Tela Login/Cadastro**
+**TELA LOGIN E CADASTRO**
 
 Ambiente no qual o mesmo se já for cadastrado no sistema poderá efetuar o login direto, caso não seja o mesmo clicar em inscreva-se, onde será redirecionado para tela de cadastro. 
 
@@ -23,10 +22,11 @@ Ambiente no qual o mesmo se já for cadastrado no sistema poderá efetuar o logi
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/204169234-8c145947-7a8a-4aa9-a41c-cfcc99608f1a.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103081069/205448718-ffa11f5e-e66e-4472-bc52-9f2f3b2825f2.png" width="500px" />
+<img src="https://user-images.githubusercontent.com/103081069/205448764-922079c2-aa1c-45c6-83a4-3c93a88137d9.png" width="500px" />
 </div>
 
-**Avaliação** 
+**AVALIAÇÃO** 
 
 Área na qual mostra alguns perfis de faxineiras, recomendações de empregadores que contrataram através do site e também dúvidas frequentes.
 
@@ -34,28 +34,18 @@ Ambiente no qual o mesmo se já for cadastrado no sistema poderá efetuar o logi
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/204169455-dc96a148-6cc0-457d-9eca-d693eb75a208.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103081069/205448934-3c43aa26-0ad4-48d7-a9d8-c963f3b3412c.png" width="500px" />
 </div>
 
-**Busca por Bairro**
 
-Neste ambiente o usuário poderá buscar através de bairro as faxineiras mais próximas de sua residência.
+**BUSCA POR BAIRRO E ENTRAR EM CONTATO COM AS FAXINEIRAS**
 
-<div style="text-align:center">                            
-</div>
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/204169523-becee4f7-2307-4a75-be57-f7be3212bd9b.jpeg" width="500px" />
-</div>
-
-**Entrar em contato com as faxineiras**
-
-O usuário será redirecionado para o whatsapp para entrar em contato com as faxineiras.
+Neste ambiente o usuário poderá buscar através do bairro as faxineiras mais próximas de sua residência e para entrar em contato o usuário deve clicar no botão entrar em contato e será redirecionado para o whatsapp podendo falar diretamente com a mesma.
  
 
 <div style="text-align:center">                            
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/204169568-28a1ec37-bc2b-4961-87c6-12e75a3e8c50.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103081069/205449101-9fd2e139-129e-442c-8575-895fb510ee33.png" width="500px" />
 </div>
