@@ -42,9 +42,6 @@ A figura abaixo demonstra como as tecnologias estão relacionadas.
 
 ![Lógico_1](https://user-images.githubusercontent.com/103081069/205446840-765612d8-93fe-4b13-b199-0401c6c70e49.PNG)
 
-## Imagem da tecnologia utilizada no desenvolvimento da solucção.
-
-
 ## Hospedagem
 
 A solução foi hospedada no SmarterASP.NET e a aplicação foi conectado a uma base de dados MSSQL.
