@@ -29,7 +29,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Linguagens de programação utilizadas para o desenvolvimento da aplicação:
 
->- Javascript: Utilizado no frontend.
+>- HTML e CSS: Utilizados no frontend.
 >- C#: Utilizada para desenvolvimento do backend.
 
 Frameworks:
@@ -38,13 +38,9 @@ Frameworks:
 
 IDE: Visual Studio Community 2022, escolhido pela integração com o Framework ASP.NET e outras ferramentas utilizadas no projeto como o SQL Server.
 
-Outras tecnologias:
+A figura abaixo demonstra como as tecnologias estão relacionadas.
 
->- HTML
->- CSS
-
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+![Lógico_1](https://user-images.githubusercontent.com/103081069/205446840-765612d8-93fe-4b13-b199-0401c6c70e49.PNG)
 
 ## Imagem da tecnologia utilizada no desenvolvimento da solucção.
 
