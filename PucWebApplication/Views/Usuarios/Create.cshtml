@@ -24,7 +24,7 @@
         crossorigin="anonymous"></script>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Configuração Style -->
-    <link rel="stylesheet" href="../css/StyleSheet.css">
+    <link rel="stylesheet" href="/css/inicio.css">
     <!-- Fim Configuração Style -->
 </head>
 
@@ -141,15 +141,12 @@
             </div>
         </div>
     </div>
-    <p2 class="title"><a asp-controller="Home" asp-action="Index"><svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="currentColor"
-                id="back-button" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
-            </svg></a>CADASTRE-SE</p2> <br>
+    <h4 class="title">CADASTRE-SE</h4>
+    <hr />
     <p2>Preencha os campos abaixo corretamente para realizar o seu cadastro</p2> <br>
     <p3>(*)campos obrigatórios</p3>
 
-    <form class="cad" asp-action="Create">
+    <form class="edit" asp-action="Create">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nome" class="h-input control-label"></label>
@@ -212,7 +209,7 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Perfil" class="control-label"></label>
+                <label asp-for="Perfil" class="control-label h-input"></label>
                 <select asp-for="Perfil" class="form-control perfil" asp-items="Html.GetEnumSelectList<Perfil>()" required></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>            
@@ -221,7 +218,7 @@
                 <input type="file" asp-for="ImageFile" class="b-input form-control" />
             </div>
 
-            <div class="form-group submit" style="margin-top: 20px;">
+            <div class="form-group submit" style="margin-top: 40px;">
                 <input type="submit" id="submit" value="Criar Conta" class="botao"/>
             </div>
     </form>
