@@ -8,7 +8,7 @@
 <HTML>
 
 <head>
-    <title>Minha Faxina - Login</title>
+    <title>Minha Faxina - Resultado de Pesquisa</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,13 +52,7 @@
                         <a asp-controller="Home" asp-action="Index" class="nav-link">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a asp-controller="Home" asp-action="Index" class="nav-link">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a asp-controller="Home" asp-action="Index" class="nav-link">Faxineiras</a>
-                    </li>
-                    <li class="nav-item">
-                        <a asp-controller="Home" asp-action="Index" class="nav-link">Time</a>
+                        <a asp-controller="Home" asp-action="Index" class="nav-link">Faxineiros</a>
                     </li>
                 </ul>
                 @if (User.Identity.IsAuthenticated)
@@ -77,7 +71,7 @@
                 }
                 else
                 {
-                    <div class="nav-item usuario">
+                    <div class="nav-item usuario" style="display: none;">
                         <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="botao">
                             Login
                         </button>
