@@ -26,6 +26,9 @@
     <Content Remove="Views\Usuarios\View.cshtml" />
     <Content Remove="wwwroot\css\site.css" />
     <Content Remove="wwwroot\js\JavaScript.js" />
+    <Content Remove="wwwroot\UploadedImages\884395e2-e4c4-40db-affc-0b4c557d6c26_images.jpg" />
+    <Content Remove="wwwroot\UploadedImages\9ac41875-6420-4393-b3ea-c5291192c2bf_244742785-352-k3301.jpg" />
+    <Content Remove="wwwroot\UploadedImages\d119486b-dbb1-49ce-be5e-49110c5c0bfa_WhatsApp Image 2022-11-06 at 16.38.21.jpeg" />
   </ItemGroup>
 
   <ItemGroup>

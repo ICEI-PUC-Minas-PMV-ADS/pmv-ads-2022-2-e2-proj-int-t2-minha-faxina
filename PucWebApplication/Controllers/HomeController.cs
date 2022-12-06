@@ -6,17 +6,17 @@ using System.Diagnostics;
 namespace PucWebApplication.Controllers {
     public class HomeController : Controller {
         private readonly ILogger<HomeController> _logger;
-        private readonly Contexto _dbContexto;
+        private readonly Contexto _context;
         private readonly IWebHostEnvironment webHostEnvironment;
 
         public HomeController(ILogger<HomeController> logger, IWebHostEnvironment hostEnvironment, Contexto _contexto) {
             _logger = logger;
-            _dbContexto = _contexto;
+            _context = _contexto;
             webHostEnvironment = hostEnvironment;
         }
 
         public IActionResult EmployeeListing() { 
-            return View(_dbContexto.Usuario.ToList());
+            return View(_context.Usuario.ToList());
         }
 
         public ActionResult EmployeeProfileUpload(Usuario empdetails) {
@@ -38,8 +38,8 @@ namespace PucWebApplication.Controllers {
                 empdetails.EmpPhotoPath = "~/wwwroot/UploadedImages";
                 empdetails.EmpFileName = uniqueFileName;
 
-                _dbContexto.Usuario.Add(empdetails);
-                _dbContexto.SaveChanges();
+                _context.Usuario.Add(empdetails);
+                _context.SaveChanges();
 
                 return RedirectToAction("EmployeeListing", "Home");
             }
@@ -49,6 +49,11 @@ namespace PucWebApplication.Controllers {
         public IActionResult Index() {           
             
             return View();
+        }
+
+        public IActionResult Home() {
+
+            return View(_context.Usuario.ToList());
         }
 
         public IActionResult Privacy() {

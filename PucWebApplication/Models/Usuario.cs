@@ -20,7 +20,7 @@ namespace PucWebApplication.Models {
 
         [Display(Name = "CPF")]
         [Column("CPF")]
-        public int cpf { get; set; }
+        public string cpf { get; set; }
 
         [Display(Name = "Idade")]
         [Column("Idade")]

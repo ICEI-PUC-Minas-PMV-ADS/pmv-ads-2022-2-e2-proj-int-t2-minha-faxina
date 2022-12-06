@@ -60,6 +60,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Faxineiros</a>
                     </li> 
+                    <li class="nav-item">
+                        <a  asp-action="Home">Faxineiros</a>
+                    </li> 
                     <!-- <li class="nav-item">
                             <a class="nav-link" href="#reviews">Reviews</a>
                         </li>
@@ -93,15 +96,22 @@
             </div>
         </div>
         <div>
+            @if (User.Identity.IsAuthenticated)
+            {
             <div class="col-auto pesquisa">
-                <!-- <p> <i class='bx bxs-envelope'></i> minhafaxina@example.com</p>
-                        <p> <i class='bx bxs-phone-call'></i> (31) 9555-0114</p> -->
                 @using (Html.BeginForm("Pesquisa", "Resultado", FormMethod.Get))
                 {
                     <input type="text" name="Pesquisa" placeholder="Pesquise por nome, endereço ou CEP">
                     <input type="submit" value=" " class="botao-pesquisa" />
                 }
-            </div>
+                </div>
+            }
+            else
+            {
+              <div style="color: var(--brand); text-align: right; font-size: 20px;"> <p>Para Acessar a Barra de Pesquisa Faça o Login!</p> 
+              </div> 
+                    
+            }
         </div>
     </nav>
 
@@ -138,7 +148,7 @@
 
                     <div class="inscreva-se">
                         <p>Ainda não é cadastrado? </p>
-                        <a class="botao-inscrever" asp-controller="Usuarios" asp-action="create"
+                        <a class="botao-inscrever" asp-controller="Usuarios" asp-action="Create"
                             style="text-decoration: none; color: rgb(0, 176, 103);"> Inscreva-se</a>
                     </div>
                 </div>
@@ -243,13 +253,11 @@
        <div class="review">
                 <div class="person">
                     <img src="/Imagens/team_1.jpg" alt="">
-                    <h5>Isabela Ferreira</h5>
+                    <h5>Marcos Paulo</h5>
                     <small>Região:Belo horizonte</small>
                 </div>
                 <h3>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!
+                    Contratei Marcos Paulo pra limpar minha casa e gostei muito do serviço prestado, foi muito atencioso e prestativo, adorei a proposta do site!
                 </h3>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
@@ -339,7 +347,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service">
                             <img src="/Imagens/team_1.jpg">
-                            <h5>Isabela Ferreira</h5>
+                            <h5>Ricardo Ferreira</h5>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                             <button type="button" class="btn btn-success">Contratar</button>
                         </div>
@@ -347,7 +355,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service">
                             <img src="/Imagens/team_2.jpg" alt="">
-                            <h5>Isabela Ferreira</h5>
+                            <h5>Carlos Maia</h5>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                             <button type="button" class="btn btn-success">Contratar</button>
                         </div>
@@ -355,7 +363,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="service">
                             <img src="/Imagens/team_3.jpg" alt="">
-                            <h5>Isabela Ferreira</h5>
+                            <h5>José Antonio</h5>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                             <button type="button" class="btn btn-success">Contratar</button>
                         </div>
