@@ -541,3 +541,9 @@ footer .social-icons a {
     left: 0;
     right: 0;
 }
+
+.alertaNovoUsuario {
+    color: var(--brand);
+    text-align: right;
+    font-size: 20px;
+}
