@@ -42,11 +42,9 @@ namespace PucWebApplication.Migrations
                         .HasColumnName("Email");
 
                     b.Property<string>("EmpFileName")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("EmpPhotoPath")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<int>("Idade")
@@ -76,8 +74,9 @@ namespace PucWebApplication.Migrations
                         .HasColumnType("int")
                         .HasColumnName("CEP");
 
-                    b.Property<int>("cpf")
-                        .HasColumnType("int")
+                    b.Property<string>("cpf")
+                        .IsRequired()
+                        .HasColumnType("longtext")
                         .HasColumnName("CPF");
 
                     b.Property<int>("tel")

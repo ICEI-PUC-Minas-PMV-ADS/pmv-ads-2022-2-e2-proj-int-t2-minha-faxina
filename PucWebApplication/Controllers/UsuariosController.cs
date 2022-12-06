@@ -5,10 +5,12 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using Org.BouncyCastle.Crypto.Generators;
 using PucWebApplication.Data;
 using PucWebApplication.Models;
@@ -20,12 +22,15 @@ namespace PucWebApplication.Controllers
     {
         private readonly Contexto _context;
         private string caminhoServidor;
+        
+        private readonly IWebHostEnvironment webHostEnvironment;
 
 
-        public UsuariosController(Contexto context, IWebHostEnvironment sistema)
+        public UsuariosController(Contexto context, IWebHostEnvironment sistema, IWebHostEnvironment hostEnvironment, Contexto _contexto)
         {
             _context = context;
             caminhoServidor = sistema.WebRootPath;
+            webHostEnvironment = hostEnvironment;
         }
 
         public IActionResult login()
@@ -272,6 +277,56 @@ namespace PucWebApplication.Controllers
         private bool UsuarioExists(int id)
         {
             return _context.Usuario.Any(e => e.Id == id);
+        }
+
+        // GET: novo cadastro
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
+
+        // POST: UsuarioUploadImg/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Cadastro([Bind("Id,Nome,Email,cpf,Idade,cep,Rua,Numero,Complemento,Bairro,Cidade,Senha,Perfil,tel,EmpPhotoPath,EmpFileName")] Usuario usuario, Usuario empdetails)
+        {       
+
+
+            if (ModelState.IsValid)
+            {
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);                
+                _context.Add(usuario);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(login));
+
+            }            
+
+
+            return View(usuario);
+            //if (empdetails.ImageFile != null) {
+            //    string ImageUploadedFolder = Path.Combine
+            //        (webHostEnvironment.WebRootPath, "UploadedImages");
+
+            //    uniqueFileName = Guid.NewGuid().ToString() + "_" +
+            //        empdetails.ImageFile.FileName;
+
+            //    string filepath = Path.Combine(ImageUploadedFolder, uniqueFileName);
+
+            //    using (var fileStream = new FileStream(filepath, FileMode.Create)) {
+            //        empdetails.ImageFile.CopyTo(fileStream);
+            //    }
+
+            //    empdetails.EmpPhotoPath = "~/wwwroot/UploadedImages";
+            //    empdetails.EmpFileName = uniqueFileName;
+
+            //    _context.Usuario.Add(empdetails);
+            //    _context.SaveChanges();
+
+            //    return RedirectToAction("Index", "Home");
+            //}            
+
         }
     }
 }
