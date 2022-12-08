@@ -26,16 +26,14 @@ https://user-images.githubusercontent.com/101114385/206541177-5453d49a-d137-47e1
 #TU-04 - Verificar Login
 
     No vídeo a seguir, temos o registro do funcionamento do login na aplicação. O intuito desta verificação é saber se é 
-    possivel realizar login com os dados utilizados no cadastro de forma que os dados apareça de maneira, correta.
+    possivel realizar login com os dados utilizados no cadastro de forma que os dados apareça de maneira correta.
     Veja o teste de Login:
     
- 
+ https://user-images.githubusercontent.com/101114385/206541185-9596a320-1f3f-49ed-b199-4d041183708d.mp4
 
 #TU-05 - Verificar Contato entre usuários
 
     No vídeo a seguir, temos o funcionamento com êxito do método utilizado na aplicação de contato os usuários, que é via Whatsapp.
     Veja o teste de Contato entre usuários :
 https://user-images.githubusercontent.com/101114385/206541183-d6adeaae-ef29-41b8-ac8d-89460748898f.mp4
-
-
 
